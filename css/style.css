@@ -13044,10 +13044,12 @@ h5,
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-weight: 600;
   text-transform: uppercase;
+  width: 180px;
+  text-align: center;
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link span {
@@ -13175,7 +13177,7 @@ h5,
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: .6;
+  opacity: .3;
   background: #3d424a;
   z-index: -1;
 }
@@ -13197,7 +13199,7 @@ h5,
 }
 
 .hero-wrap .slider-text {
-  height: 100vh;
+  /* height: 100vh; */
   min-height: 750px;
   color: rgba(255, 255, 255, 0.8);
   z-index: 3;
@@ -13256,7 +13258,7 @@ h5,
 .hero-wrap .slider-text .h1 {
   font-weight: 700;
   color: #fff;
-  font-size: 60px;
+  font-size: 45px;
   line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: 3px;

@@ -34,5 +34,10 @@ function loadLanguage(language) {
             document.getElementById('greeting').textContent = data.greeting[language];
             document.getElementById('greetingIki').textContent = data.greetingIki[language];
             document.getElementById('greetingUc').textContent = data.greetingUc[language];
+            document.getElementById('home').textContent = data.home[language];
+            document.getElementById('about').textContent = data.about[language];
+            document.getElementById('services').textContent = data.services[language];
+            document.getElementById('projects').textContent = data.projects[language];
+            document.getElementById('contact').textContent = data.contact[language];
         });
 }

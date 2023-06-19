@@ -13,5 +13,30 @@
         "de": "pünktliche Lieferung",
         "tr": "Zamanında Teslİmat",
         "en": "On-time Delivery"
+    },
+    "home":{
+        "de": "home",
+        "tr": "Anasayfa",
+        "en": "home"
+    },
+    "about":{
+        "de": "Über Uns",
+        "tr": "Hakkimizda",
+        "en": "About"
+    },
+    "contact": {
+        "de": "Kontakt",
+        "tr": "İletİşİm",
+        "en": "contact"
+    },
+    "projects":{
+        "de": "Projekte",
+        "tr": "Projeler",
+        "en": "Projects"
+    },
+    "services":{
+        "de": "Dienstleistungen",
+        "tr": "Hİzmetler",
+        "en": "Services"
     }
 }
