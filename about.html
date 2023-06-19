@@ -1,76 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Buildream - Free Bootstrap 5 Template by Colorlib</title>
+    <title>MERT-KA Bau GmbH</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Prata&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Prata&display=swap"
+      rel="stylesheet">
+  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-
+  
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/tiny-slider.css">
     <link rel="stylesheet" href="css/glightbox.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/lang.js"></script>
   </head>
+  
   <body>
-
-    <div class="py-1 top-wrap">
-      <div class="container-xl">
+  
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/gototop.png" style="width: 40px;"
+        srcset=""></button>
+    <div class="py-1 top-wrap px-3 px-md-0">
+      <div class="container">
         <div class="row justify-content-between">
-
+  
           <div class="col-md topper d-flex align-items-xl-center">
             <div class="text">
-              <p class="con"><span>Free Call:</span> <span>+1 234 456 78910</span></p>
+              <p class="con"><span>Telefon:</span> <span>0 211 5424 9080</span></p>
             </div>
+  
+  
           </div>
           <div class="col-md topper d-flex justify-content-lg-end">
-            <div class="text me-4 d-flex align-items-center justify-content-lg-end">
-              <p class="con"><span>Email Adddress:</span> <span>buildream@info.com</span></p>
-            </div><div class="text me-4 d-flex align-items-center justify-content-lg-end">
-              <select id="language-select">
-                <option value="tr">Türkçe</option>
-                <option value="en">English</option>
-                <!-- Diğer dil seçeneklerini buraya ekleyebilirsiniz -->
-              </select>
-            </div>
-            <ul class="ftco-social-top d-flex align-items-center">
-              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+            <div class="text me-4 d-flex align-items-end justify-content-lg-center">
+              <p class="con"><span>Email:</span> <span>info@mert-ka-bau.de</span></p>
+            </div><!-- 
+                <ul class="ftco-social-top d-flex align-items-center">
+                  <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                  <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                  <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                </ul>-->
+            <ul class="ftco-social-top d-flex align-items-center" id="dilbayraklari">
+              <li><img src="images/ger.png" class="dilflag" alt="" id="germanBtn"></li>
+              <li><img src="images/tur.png" class="dilflag" alt="" id="turkishBtn"></li>
+              <li><img src="images/ing.png" class="dilflag" alt="" id="englishBtn"></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
+
     <nav class="navbar navbar-expand-lg  ftco-navbar-light">
       <div class="container-xl">
-        <a class="navbar-brand aside-stretch align-items-center" href="index.html">
-          Buildream
+        <a class="navbar-brand align-items-center" href="index.html">
+          <img src="images/logo1.jpg" style="width: 200px;" alt="" srcset="">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="fa fa-bars"></span> Menu
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="project.html">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html" id="home">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="about.html" id="about">Über uns</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html" id="services">Dienstleistungen</a></li>
+            <li class="nav-item"><a class="nav-link" href="project.html" id="projects">Projekte</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html" id="contact">Kontakt</a></li>
           </ul>
         </div>
       </div>
     </nav>
-
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');">
       <div class="overlay"></div>
       <div class="container">
@@ -488,14 +491,16 @@
       </div>
     </footer>
 
-    
-  <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/tiny-slider.js"></script>
   <script src="js/glightbox.min.js"></script>
   <script src="js/aos.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/lang.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
     
   </body>
 </html>
