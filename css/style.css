@@ -13040,14 +13040,15 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
-  font-size: 14px;
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 25px;
   padding-right: 25px;
-  color: rgba(255, 255, 255, 0.7);
   font-weight: 500;
   text-transform: uppercase;
+  color: rgb(255,166,43);
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link span {
@@ -13067,8 +13068,10 @@ h5,
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 1rem;
-    padding-top: 0;
-    color: #fff;
+    padding-top: 0;    
+    color: rgb(255,166,43);
+    font-weight: 600;
+    font-size: 16px;
   }
 }
 
