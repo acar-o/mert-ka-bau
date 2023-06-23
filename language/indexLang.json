@@ -113,5 +113,35 @@
         "de": "Einen Termin vereinbaren",
         "tr": "Randevu Al",
         "en": "Make An Appointment"
+    },
+    "sayfa4Header1": {
+        "de": "Rohbau",
+        "tr": "İnşaat",
+        "en": "Construction"
+    },
+    "sayfa4Header2": {
+        "de": "Renovierung",
+        "tr": "Yenileme",
+        "en": "Renovation"
+    },
+    "sayfa4Header3": {
+        "de": "Sanierung",
+        "tr": "Dezenfektasyon",
+        "en": "Sanitizing"
+    },
+    "sayfa4Text1": {
+        "de": "Wir kümmern uns um alle möglichen Angelegenheiten, die mit Ihrem Rohbau zusammenhängen.",
+        "tr": "Kaba inşaat ile ilgili her türlü konu ile ilgileniriz.",
+        "en": "We take care of all sorts of matters related to your rough construction."
+    },
+    "sayfa4Text2": {
+        "de": "Unser Team aus Profis ist an diese Umstände gewöhnt, sodass wir der perfekte Partner für Sie sind, wenn Sie ein Gebäude professionell renovieren lassen möchten.",
+        "tr": "Profesyonellerden oluşan ekibimiz bu koşullara alışkın olduğundan, bir binayı profesyonelce yeniletmek istiyorsanız sizin için mükemmel ortağız.",
+        "en": "Our team of professionals are used to these circumstances, so we are the perfect partner for you if you want to have a building renovated professionally."
+    },
+    "sayfa4Text3": {
+        "de": "Mit unserem Team aus Profis desinfizieren und erneuern wir die Reinigungsflächen fachgerecht.",
+        "tr": "Profesyonellerden oluşan ekibimizle, temizlik alanlarini profesyonelce dezenfekte ediyor ve yeniliyoruz.",
+        "en": "With our team of professionals, we professionally disinfect and renew the cleaning areas."
     }
 }
