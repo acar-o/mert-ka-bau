@@ -1,12 +1,7 @@
 // Dil seçimini kontrol etmek için localStorage kullanalım
 const selectedLanguage = localStorage.getItem("language");
 
-// Dil seçimi kontrol edilir ve localStorage'a kaydedilir
-if (selectedLanguage) {
-  loadLanguage(selectedLanguage);
-} else {
-  loadLanguage("de"); // Varsayılan olarak Türkçe yüklenir
-}
+loadLanguage(selectedLanguage);
 // Dil seçimi için butonları dinleyelim
 document.getElementById("englishBtn").addEventListener("click", function () {
   loadLanguage("en");

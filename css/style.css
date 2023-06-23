@@ -13212,11 +13212,11 @@ h5,
 
 .hero-wrap .slider-text .text:after {
   position: absolute;
-  top: -30px;
+  top: -20px;
   right: 0;
   left: 0;
   width: 50%;
-  height: 90%;
+  height: 120%;
   background-attachment: fixed;
   margin: 0 auto;
   content: '';

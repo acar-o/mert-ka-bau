@@ -1,6 +1,6 @@
 {    
     "home":{
-        "de": "home",
+        "de": "Startseite",
         "tr": "Anasayfa",
         "en": "home"
     },
@@ -38,5 +38,80 @@
         "de": "pünktliche Lieferung",
         "tr": "Zamanında Teslİmat",
         "en": "On-time Delivery"
+    },
+    "indexButton1": {
+        "de": "Kontaktiere uns",
+        "tr": "Bİze Ulaşın",
+        "en": "Contact us"
+    },
+    "sayfa2Baslik": {
+        "de": "Hochwertige Konstruktion, angemessener Preis",
+        "tr": "Kaliteli inşaat, uygun fiyat",
+        "en": "Quality construction, reasonable price"
+    },
+    "sayfa2Text": {
+        "de": "Als Universalunternehmen haben wir immer was zu tun. Von modernen Bürokomplexen bis hin zu innovativen Konstruktionen in großen Projekten. Unser Leistungsspektrum reicht über große Verantwortungen für gesamte Bauwerke bis zu vielfältigen Einsätzen in repräsentativen Bauvorhaben.",
+        "tr": "Evrensel bir şirket olarak her zaman yapacak bir şeyimiz vardır. Modern ofis komplekslerinden büyük projelerdeki yenilikçi yapılara. Hizmet yelpazemiz, tüm binalar için büyük sorumluluklardan temsili inşaat projelerindeki çok çeşitli görevlere kadar uzanır.",
+        "en": "As a universal company, we always have something to do. From modern office complexes to innovative constructions in large projects. Our range of services extends from major responsibilities for entire buildings to a wide range of assignments in representative construction projects."
+    },
+    "mert-ka": {
+        "de": "MERT-KA BAU GMBH",
+        "tr": "MERT-KA İNŞAAT",
+        "en": "MERT-KA CONSTRUCTION"
+    },
+    "sayfa2Kutu1": {
+        "de": "PLANUNG",
+        "tr": "PLANLAMA",
+        "en": "PLANNING"
+    },
+    "sayfa2Kutu2": {
+        "de": "BAUÜBERWACHUNG",
+        "tr": "İNŞAAT DENETİMİ",
+        "en": "BUDGET PLANNING"
+    },
+    "sayfa2Kutu3": {
+        "de": "BUDGET PLANUNG",
+        "tr": "BÜTÇE PLANLAMA",
+        "en": "CONSTRUCTION SUPERVISION"
+    },
+    "sayfa2Kutu4": {
+        "de": "BAUEN",
+        "tr": "İNŞAAT",
+        "en": "CONSTRUCTION"
+    },
+    "sayfa2Kutu1Text": {
+        "de": "Vorschriftsmäßige Planung Ihres Bauvorhabens",
+        "tr": "Bina projenizin doğru planlanması",
+        "en": "Proper planning of your building project"
+    },
+    "sayfa2Kutu2Text": {
+        "de": "Ordnungsgemäße Umsetzung Ihrer Bauarbeiten",
+        "tr": "İnşaat işinizin doğru şekilde uygulanması",
+        "en": "Proper implementation of your construction work"
+    },
+    "sayfa2Kutu3Text": {
+        "de": "Genaue Kalkulation Ihrer zu entstehenden Kosten",
+        "tr": "Oluşacak maliyetlerinizin kesin olarak hesaplanması",
+        "en": "Precise calculation of your costs to be incurred"
+    },
+    "sayfa2Kutu4Text": {
+        "de": "Plangemäße Umsetzung Ihrer Bauarbeiten",
+        "tr": "İnşaat işlerinizin plana göre uygulanması",
+        "en": "Implementation of your construction work according to plan"
+    },
+    "sayfa3Text": {
+        "de": "Für Bau- und Renovierungsarbeiten können Sie sich an uns wenden",
+        "tr": "İNŞAAT VE TADİLAT İŞLERİ İÇİN BİZİMLE İLETİŞİME GEÇEBİLİRSİNİZ",
+        "en": "YOU MAY CONTACT US FOR CONSTRUCTION AND RENOVATION WORK"
+    },
+    "sayfa3Header": {
+        "de": "Wir sind immer da für Sie.",
+        "tr": "Her zaman yanınızdayız.",
+        "en": "We are always there for you."
+    },
+    "sayfa3Button": {
+        "de": "Einen Termin vereinbaren",
+        "tr": "Randevu Al",
+        "en": "Make An Appointment"
     }
 }
