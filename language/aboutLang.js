@@ -7,7 +7,6 @@ if (selectedLanguage) {
 } else {
   loadLanguage("de"); // Varsayılan olarak Türkçe yüklenir
 }
-
 // Dil seçimi için butonları dinleyelim
 document.getElementById("englishBtn").addEventListener("click", function () {
   loadLanguage("en");
@@ -27,7 +26,7 @@ function loadLanguage(language) {
   localStorage.setItem("language", language);
 
   // Dil dosyasını yükleyelim
-  fetch("lang.json")
+  fetch("language/aboutLang.json")
     .then((response) => response.json())
     .then((data) => {
       // İlgili dilin karşılıklarını eşleştirelim ve HTML'e yerleştirelim

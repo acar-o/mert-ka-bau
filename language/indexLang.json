@@ -1,19 +1,4 @@
-{
-    "greeting": {
-        "de": "Professionelles Team",
-        "tr": "Profesyonel Ekİp",
-        "en": "Professional Team"
-    },
-    "greetingIki": {
-        "de": "qualitativ hochwertiger Bau",
-        "tr": "Kalİtelİ İnşaat",
-        "en": "Quality Construction"
-    },
-    "greetingUc": {
-        "de": "pünktliche Lieferung",
-        "tr": "Zamanında Teslİmat",
-        "en": "On-time Delivery"
-    },
+{    
     "home":{
         "de": "home",
         "tr": "Anasayfa",
@@ -38,5 +23,20 @@
         "de": "Dienstleistungen",
         "tr": "Hİzmetler",
         "en": "Services"
+    },
+    "greeting": {
+        "de": "Professionelles Team",
+        "tr": "Profesyonel Ekİp",
+        "en": "Professional Team"
+    },
+    "greetingIki": {
+        "de": "qualitativ hochwertiger Bau",
+        "tr": "Kalİtelİ İnşaat",
+        "en": "Quality Construction"
+    },
+    "greetingUc": {
+        "de": "pünktliche Lieferung",
+        "tr": "Zamanında Teslİmat",
+        "en": "On-time Delivery"
     }
 }
