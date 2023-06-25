@@ -90,8 +90,8 @@
             </h1>
           </div>
             <p>
-              <a href="contact.html" class="btn btn-primary p-4 py-3" style="font-size: large;width: 250px;" id="indexButton1">Kontaktiere uns</a>
-              <a href="#first-section" class="btn btn-darken p-4 py-3" style="font-size: large;width: 250px;" id="indexButton2">Entdecke mehr</a>
+              <a href="contact.html" class="btn btn-primary p-4 py-3" style="font-size: large;width: 250px;" id="indexButton1"></a>
+              <a href="#first-section" class="btn btn-darken p-4 py-3" style="font-size: large;width: 250px;" id="indexButton2"></a>
             </p>
         </div>
       </div>
@@ -99,18 +99,18 @@
   </section>
 
   <section class="ftco-section ftco-about-section" id="first-section">
-    <div class="container-l" style="max-width: 90vw; margin: 0 auto;">
+    <div class="container-l" style="max-width: 88vw; margin: 0 auto;">
       <div class="row g-xl-5">
         <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100"
           data-aos-duration="1000">
           <div class="img w-100" style="background-image: url(images/about.jpg);">
-            <!-- <div class="counter-wrap d-flex">
-              <div class="icon"><span class="flaticon-engineer"></span></div>
+            <div class="counter-wrap d-flex">
+              <!-- <div class="icon"><span class="flaticon-engineer"></span></div> -->
               <div class="text ps-3">
-                <span class="number"><span class="countup">38</span></span>
-                <span class="caption">Years of experienced</span>
+                <span class="number"><script>document.write(new Date().getFullYear()-2000);</script></span>
+                <span class="caption" id="tecrube"></span>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
         <div class="col-md-6 heading-section d-flex align-items-center">
@@ -177,7 +177,7 @@
             </div>
             <div class="col-md-4 d-flex align-items-center" data-aos="fade-up" data-aos-delay="100"
               data-aos-duration="1000">
-              <p class="mb-0"><a href="contact.html" class="btn btn-primary py-md-4 py-3 px-md-5 px-4"  id="sayfa3Button"></a></p>
+              <p class="mb-0"><a href="contact.html" class="btn btn-primary py-md-4 py-3 px-md-5 px-4" style="font-size: large;" id="sayfa3Button"></a></p>
             </div>
           </div>
         </div>
@@ -189,8 +189,8 @@
     <div class="container-xl">
       <div class="row justify-content-center">
         <div class="col-md-8 heading-section text-center mb-5" data-aos="fade-up">
-          <span class="subheading">What We Do</span>
-          <h2 class="mb-4">Services</h2>
+          <span class="subheading" id="sayfa5Header2"></span>
+          <h2 class="mb-4" id="sayfa5Header"></h2>
         </div>
       </div>
       <div class="row">
@@ -235,33 +235,11 @@
         <div class="col-sm-6 col-md-6 col-lg-3 d-flex align-items-stretch">
           <div class="counter-wrap-2 d-flex" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
             <div class="icon">
-              <span class="flaticon-engineer"></span>
+              <span class="flaticon-project"></span>
             </div>
             <div class="text">
-              <h2 class="number"><span class="countup">3000</span></h2>
-              <span class="caption">Completed Projects</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-3 d-flex align-items-stretch">
-          <div class="counter-wrap-2 d-flex" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <div class="icon">
-              <span class="flaticon-engineer"></span>
-            </div>
-            <div class="text">
-              <h2 class="number"><span class="countup">320</span></h2>
-              <span class="caption">Happy Clients</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-3 d-flex align-items-stretch">
-          <div class="counter-wrap-2 d-flex" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-            <div class="icon">
-              <span class="flaticon-engineer"></span>
-            </div>
-            <div class="text">
-              <h2 class="number"><span class="countup">1000</span></h2>
-              <span class="caption">Cup Of Coffee</span>
+              <h2 class="number"><span class="countup">85</span></h2>
+              <span class="caption" id="sayfa6Text1"></span>
             </div>
           </div>
         </div>
@@ -271,8 +249,8 @@
               <span class="flaticon-engineer"></span>
             </div>
             <div class="text">
-              <h2 class="number"><span class="countup">587</span></h2>
-              <span class="caption">Engineers &amp; Staffs</span>
+              <h2 class="number"><span class="countup">100</span></h2>
+              <span class="caption" id="sayfa6Text2"></span>
             </div>
           </div>
         </div>
@@ -284,8 +262,8 @@
     <div class="container-xl-fluid">
       <div class="row justify-content-center pb-4">
         <div class="col-md-7 text-center heading-section" data-aos="fade-up">
-          <span class="subheading">Portfolio</span>
-          <h2 class="mb-5">Projects</h2>
+          <span class="subheading" id="sayfa7Header1"></span>
+          <h2 class="mb-5" id="sayfa7Header"></h2>
         </div>
       </div>
       <div class="row g-0">
@@ -363,8 +341,8 @@
     <div class="container-xl">
       <div class="row justify-content-center pb-4">
         <div class="col-md-7 text-center heading-section" data-aos="fade-up" data-aos-duration="1000">
-          <span class="subheading">Testimonial</span>
-          <h2 class="mb-5">Happy Clients</h2>
+          <span class="subheading" id="testimonial"></span>
+          <h2 class="mb-5" id="happyClients"></h2>
         </div>
       </div>
       <div class="row">
@@ -465,7 +443,7 @@
       </div>
     </div>
   </section>
-
+<!-- 
   <section class="ftco-appointment img" style="background-image: url(images/bg_2.jpg)">
     <div class="overlay"></div>
     <div class="container-xl">
@@ -585,7 +563,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <footer class="ftco-footer">
     <div class="container-xl">
@@ -593,19 +571,17 @@
         <div class="col-md-6 col-lg">
           <div class="ftco-footer-widget mb-4">
             <h2 class="ftco-heading-2 logo d-flex">
-              <a class="navbar-brand align-items-center" href="index.html">
-                Buildream
-              </a>
+              <a class="navbar-brand align-items-center" href="index.html" id="footerSirketIsim"></a>
             </h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-            <ul class="ftco-footer-social list-unstyled mt-2">
+            <p id="footerMetin"></p>
+            <!-- <ul class="ftco-footer-social list-unstyled mt-2">
               <li><a href="#"><span class="fa fa-twitter"></span></a></li>
               <li><a href="#"><span class="fa fa-facebook"></span></a></li>
               <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-            </ul>
+            </ul> -->
           </div>
         </div>
-        <div class="col-md-6 col-lg">
+        <!-- <div class="col-md-6 col-lg">
           <div class="ftco-footer-widget mb-4">
             <h2 class="ftco-heading-2">Services</h2>
 
@@ -640,30 +616,27 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-md-6 col-lg-2">
           <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Quick Links</h2>
+            <h2 class="ftco-heading-2" id="footerLinks"></h2>
             <ul class="list-unstyled">
-              <li><a href="#"><span class="fa fa-chevron-right me-2"></span>Home</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right me-2"></span>About</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right me-2"></span>Services</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right me-2"></span>Project</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right me-2"></span>Pricing</a></li>
-              <li><a href="#"><span class="fa fa-chevron-right me-2"></span>Contact Us</a></li>
+              <li><span class="fa fa-chevron-right me-2"></span><a href="about.html" id="footerLinks1"></a></li>
+              <li><span class="fa fa-chevron-right me-2"></span><a href="services.html" id="footerLinks2"></a></li>
+              <li><span class="fa fa-chevron-right me-2"></span><a href="project.html" id="footerLinks3"></a></li>
+              <li><span class="fa fa-chevron-right me-2"></span><a href="contact.html" id="footerLinks4"></a></li>
             </ul>
           </div>
         </div>
         <div class="col-md-6 col-lg">
           <div class="ftco-footer-widget mb-4">
-            <h2 class="ftco-heading-2">Have a Questions?</h2>
+            <h2 class="ftco-heading-2" id="sorunuzVarmi"></h2>
             <div class="block-23 mb-3">
               <ul>
-                <li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View, San
-                    Francisco, California, USA</span></li>
-                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span
-                      class="text">info@yourdomain.com</span></a></li>
+                <li><span class="icon fa fa-map marker"></span><span class="text">Vogelsanger Weg 91, 40470 Düsseldorf</span></li>
+                <li><span class="icon fa fa-phone"></span><span class="text">+49-211-5424-9080</span></li>
+                <li><span class="icon fa fa-paper-plane pr-4"></span><span
+                      class="text">info@mert-ka-bau.de</span></li>
               </ul>
             </div>
           </div>
@@ -675,9 +648,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p class="mb-0" style="color: rgba(255,255,255,.5); font-size: 13px;">Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
-              with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                target="_blank" rel="nofollow noopener">Colorlib</a>
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | Mert-KA Bau GmbH
             </p>
           </div>
         </div>

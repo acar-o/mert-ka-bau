@@ -763,6 +763,7 @@ progress {
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
+  justify-content: center;
 }
 
 .row>* {
@@ -13537,7 +13538,7 @@ textarea.form-control {
 }
 
 .services-wrap .services {
-  padding: 25px;
+  padding: 15px;
   display: block;
   width: 100%;
   margin-bottom: 0px;
@@ -13545,7 +13546,7 @@ textarea.form-control {
 
 .services-wrap .services .text {
   padding: 0;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .services-wrap .services .text h2,
@@ -14545,14 +14546,13 @@ textarea.form-control {
 .ftco-about-section .img .number {
   color: #ffa62b;
   line-height: 1;
-  display: block;
   margin-bottom: 5px;
   font-weight: 600;
 }
 
 .ftco-about-section .img .caption {
   font-size: 20px;
-  display: block;
+  margin-left: 10px;
   color: #fff;
 }
 
@@ -14597,7 +14597,7 @@ textarea.form-control {
 }
 
 .section-counter .number {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   color: #ffa62b;
   line-height: 1;
@@ -14610,6 +14610,7 @@ textarea.form-control {
   display: block;
   color: rgba(255, 255, 255, 0.9);
   text-transform: uppercase;
+  font-size: 20px;
 }
 
 .staff {
