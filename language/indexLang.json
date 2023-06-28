@@ -121,7 +121,7 @@
     },
     "sayfa3Button": {
         "de": "Einen Termin vereinbaren",
-        "tr": "Randevu Al",
+        "tr": "Randevu Alın",
         "en": "Make An Appointment"
     },
     "sayfa4Header1": {
@@ -233,5 +233,30 @@
         "de": "Haben Sie Fragen?",
         "tr": "Sorunuz mı var?",
         "en": "Have a Questions?"
+    },
+    "copyright": {
+        "de": "Alle Rechte vorbehalten",
+        "tr": "Bütün hakları saklıdır",
+        "en": "All rights reserved"
+    },
+    "learnMore1": {
+        "de": "Mehr Info",
+        "tr": "Daha fazla bİlgİ",
+        "en": "More info"
+    },
+    "learnMore2": {
+        "de": "Mehr Info",
+        "tr": "Daha fazla bİlgİ",
+        "en": "More info"
+    },
+    "learnMore3": {
+        "de": "Mehr Info",
+        "tr": "Daha fazla bİlgİ",
+        "en": "More info"
+    },
+    "memnuniyet1": {
+        "de": "Neben der Qualitätsarbeit und der pünktlichen Lieferung ist vor allem der freundliche Umgang des Mert-Ka-Bauteams bewundernswert.",
+        "tr": "Kaliteli iş ve zamanında teslimatın yanı sıra özellikle Mert-Ka inşaat ekibinin güler yüzlü yaklaşımı takdire şayan.",
+        "en": "In addition to the quality work and the punctual delivery, the friendly approach of the Mert-Ka construction team is particularly admirable."
     }
 }
