@@ -89,7 +89,7 @@ body {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 20px;
   z-index: 99;
   border: none;
   outline: none;
@@ -14093,7 +14093,7 @@ textarea.form-control {
 }
 
 .ftco-gallery .gallery-wrap .desc {
-  margin-bottom: -50px !important;
+  /* margin-bottom: -50px !important; */
   opacity: 0;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;

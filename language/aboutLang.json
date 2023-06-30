@@ -23,5 +23,80 @@
         "de": "Dienstleistungen",
         "tr": "Hİzmetler",
         "en": "Services"
+    },
+    "footerSirketIsim": {
+        "de": "MERT-KA BAU GMBH",
+        "tr": "MERT-KA İNŞAAT",
+        "en": "MERT-KA CONSTRUCTION"
+    },
+    "bizkimiz": {
+        "de": "Wer sind wir?",
+        "tr": "Biz Kimiz?",
+        "en": "Who are we?"
+    },
+    "bizkimiz1": {
+        "de": "Unsere Reise begann im Jahr 2000 mit der Gründung der Kaya Bauunternehmen in Izmir und hat seitdem eine große Veränderung und Entwicklung erlebt. Im August 2009 haben wir unseren Namen offiziell in Mert-Ka Bauunternehmen geändert und unsere Position in der Branche gefestigt. Heute ist Mert-Ka Bauunternehmen ein angesehenes Unternehmen, das bestrebt ist, unseren Kunden qualitativ hochwertige Dienstleistungen anzubieten.",
+        "tr": "2000 yılında İzmir'de kurulan Kaya İnşaat Firması olarak başlayan yolculuğumuz, geçmişten günümüze büyük bir değişim ve gelişim sürecine tanıklık etti. Ağustos 2009'da resmi olarak ismimizi Mert-Ka İnşaat Şirketi olarak değiştirdik ve bu yeni isimle sektördeki yerimizi sağlamlaştırdık. Bugün ise sektörde saygın bir konuma sahip olan Mert-Ka İnşaat, müşterilerimize kaliteli hizmet sunmayı amaçlayan bir firmadır.",
+        "en": "Our journey began in 2000 as Kaya Construction Company in Izmir and has witnessed significant change and growth over the years. In August 2009, we officially changed our name to Mert-Ka Construction Company and solidified our position in the industry. Today, Mert-Ka Construction is a reputable firm committed to providing quality services to our clients."
+    },
+    "bizkimiz2": {
+        "de": "Mert-Ka Bauunternehmen ist ein Bauunternehmen mit erfahrenem Personal. Die Anzahl unserer Mitarbeiter variiert je nach Größe der Projekte und liegt im Allgemeinen zwischen 85 und 100. Wir arbeiten daran, unsere Projekte erfolgreich abzuschließen und dabei auf unsere Expertise zu setzen.",
+        "tr": "Mert-Ka İnşaat Şirketi, deneyimli bir ekibe sahip olan bir inşaat şirketidir. Çalışan sayımız projelerimizin ölçeğine bağlı olarak değişiklik göstermektedir, genel olarak 85 ile 100 arasında değişen bir aralıkta çalışanlarımızı istihdam etmekteyiz. Uzmanlığımızı kullanarak projelerimizi başarıyla tamamlamak için çalışmaktayız.",
+        "en": "Mert-Ka Construction Company is a construction firm with an experienced team. The number of employees varies depending on the scale of projects, typically ranging from 85 to 100. We strive to successfully complete our projects by leveraging our expertise."
+    },
+    "bizkimiz3": {
+        "de": "Mert-Ka Bau GmbH ist unsere Tochtergesellschaft, die im April 2023 in Deutschland gegründet wurde. Unser Ziel ist es, auch international präsent zu sein. Als Mert-Ka Bau GmbH streben wir erfolgreiche Projekte in der Baubranche in Deutschland an.",
+        "tr": "Mert-Ka Bau GmbH, Almanya'da 2023 Nisan ayında kurulan bir iştirakimizdir. Amacımız, uluslararası alanda da varlık göstermektir. Mert-Ka Bau GmbH olarak, Almanya'da inşaat sektöründe başarılı projelere imza atmayı hedefliyoruz.",
+        "en": "Mert-Ka Bau GmbH is our subsidiary established in Germany in April 2023. Our aim is to establish a presence internationally. As Mert-Ka Bau GmbH, we aspire to undertake successful projects in the construction industry in Germany."
+    },
+    "bizkimiz4": {
+        "de": "Als Mert-Ka Bauunternehmen legen wir Wert auf Umweltbewusstsein und Nachhaltigkeit. Wir bemühen uns, die Umweltauswirkungen unserer Projekte zu minimieren und natürliche Ressourcen effizient zu nutzen. Auf diese Weise tragen wir dazu bei, eine gesündere Umwelt für zukünftige Generationen zu hinterlassen.",
+        "tr": "Mert-Ka İnşaat Şirketi olarak, çevreye duyarlılık ve sürdürülebilirlik ilkelerine önem veriyoruz. Projelerimizi gerçekleştirirken çevresel etkileri minimize etmek ve doğal kaynakları verimli bir şekilde kullanmak için çaba gösteriyoruz. Bu şekilde, gelecek nesillere daha sağlıklı bir çevre bırakmaya katkıda bulunmayı amaçlıyoruz.",
+        "en": "At Mert-Ka Construction Company, we value environmental consciousness and sustainability. We make efforts to minimize the environmental impact of our projects and efficiently utilize natural resources. In doing so, we contribute to leaving a healthier environment for future generations."
+    },
+    "bizkimiz5": {
+        "de": "Unser Ziel als Mert-Ka Bauunternehmen ist es, qualitativ hochwertige Arbeiten zu liefern und unsere Position in der Branche zu stärken. Mit unserem erfahrenen Team und unserer Expertise bleiben wir ein verlässlicher Partner in Bauvorhaben.",
+        "tr": "Mert-Ka İnşaat Şirketi olarak, müşteri memnuniyetine odaklanarak kaliteli işler çıkarmayı ve sektördeki yerimizi güçlendirmeyi hedefliyoruz. Deneyimli ekibimiz ve uzmanlığımızla, inşaat projelerinde güvenilir bir iş ortağı olmayı sürdürüyoruz.",
+        "en": "Our goal as Mert-Ka Construction Company is to deliver quality work and strengthen our position in the industry. With our experienced team and expertise, we remain a reliable partner in construction projects."
+    },
+    "footerMetin": {
+        "de": "Mit unserer 23-jährigen Erfahrung im Bereich Bau, Renovierung und Desinfektion bieten wir als Unternehmen ein umfassendes Leistungsspektrum an. Unser Expertenteam und moderne Technologien ermöglichen es uns, Ihnen lösungsorientierte und effektive Lösungen auf höchstem Qualitätsniveau anzubieten.",
+        "tr": "İnşaat, yenileme ve dezenfektasyon alanında 23 yıllık deneyime sahip olan şirketimiz, uzman ekibimiz ve modern teknolojilerimizle, en yüksek standartlarda çalışarak size çözüm odaklı ve etkili çözümler sunmaktayız.",
+        "en": "With our 23 years of expertise in the construction, renovation, and disinfection field, our company offers comprehensive services. Our expert team and modern technologies enable us to provide you with solution-oriented and effective solutions at the highest standards."
+    },
+    "footerLinks": {
+        "de": "Links",
+        "tr": "Bağlantılar",
+        "en": "Links"
+    },
+    "footerLinks1": {
+        "de": "Startseite",
+        "tr": "Anasayfa",
+        "en": "home"
+    },
+    "footerLinks2": {
+        "de": "Dienstleistungen",
+        "tr": "Hİzmetler",
+        "en": "Links"
+    },
+    "footerLinks3": {
+        "de": "Projekte",
+        "tr": "Projeler",
+        "en": "Projects"
+    },
+    "footerLinks4": {
+        "de": "Kontakt",
+        "tr": "İletİşİm",
+        "en": "Contact"
+    },
+    "sorunuzVarmi": {
+        "de": "Haben Sie Fragen?",
+        "tr": "Sorunuz mı var?",
+        "en": "Have a Questions?"
+    },
+    "copyright": {
+        "de": "Alle Rechte vorbehalten",
+        "tr": "Bütün hakları saklıdır",
+        "en": "All rights reserved"
     }
 }

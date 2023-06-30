@@ -1048,7 +1048,7 @@ textarea.form-control {
 			}
 		}
 		.desc{
-			margin-bottom: -50px !important;
+			// margin-bottom: -50px !important;
 			opacity: 0;
 			@include transition(.3s);
 			span{
