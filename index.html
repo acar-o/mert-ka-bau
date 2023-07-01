@@ -22,8 +22,8 @@
 </head>
 
 <body>
-  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/gototop.png" style="width: 40px; height: 40px;"
-      srcset=""></button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/gototop.png"
+      style="width: 40px; height: 40px;" srcset=""></button>
   <div class="py-1 top-wrap px-3 px-md-0">
     <div class="container">
       <div class="row justify-content-between">
@@ -64,7 +64,7 @@
         <span class="fa fa-bars"></span> Menu
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="background-color: rgb(247,247,247);">
           <li class="nav-item"><a class="nav-link active" href="index.html" id="home"></a></li>
           <li class="nav-item"><a class="nav-link" href="about.html" id="about"></a></li>
           <li class="nav-item"><a class="nav-link" href="services.html" id="services"></a></li>
@@ -89,10 +89,12 @@
               <div class="greeting" id="greetingUc"></div>
             </h1>
           </div>
-            <p>
-              <a href="contact.html" class="btn btn-primary p-4 py-3" style="font-size: large;width: 250px;" id="indexButton1"></a>
-              <a href="#first-section" class="btn btn-darken p-4 py-3" style="font-size: large;width: 250px;" id="indexButton2"></a>
-            </p>
+          <p>
+            <a href="contact.html" class="btn btn-primary p-4 py-3" style="font-size: large;width: 250px;margin: 0 auto;"
+              id="indexButton1"></a>
+            <a href="#first-section" class="btn btn-darken p-4 py-3" style="font-size: large;width: 250px;margin: 2px auto;"
+              id="indexButton2"></a>
+          </p>
         </div>
       </div>
     </div>
@@ -107,7 +109,9 @@
             <div class="counter-wrap d-flex">
               <!-- <div class="icon"><span class="flaticon-engineer"></span></div> -->
               <div class="text ps-3">
-                <span class="number"><script>document.write(new Date().getFullYear()-2000);</script></span>
+                <span class="number">
+                  <script>document.write(new Date().getFullYear() - 2000);</script>
+                </span>
                 <span class="caption" id="tecrube"></span>
               </div>
             </div>
@@ -120,38 +124,56 @@
             <p class="mb-4" id="sayfa2Text"></p>
             <div class="row mt-4 g-lg-2">
               <div class="col-lg-6 d-flex align-items-stretch services-wrap">
-                <div class="services d-flex">
-                  <div class="icon"><span class="flaticon-building"></span></div>
+                <div class="services">
+                  <div class="d-flex">
+                    <div class="icon"><span class="flaticon-floor-plan"></span></div>
+                    <div class="text">
+                      <h2 id="sayfa2Kutu1"></h2>
+                    </div>
+                  </div>
                   <div class="text">
-                    <h2 id="sayfa2Kutu1"></h2>
                     <p class="mb-0" id="sayfa2Kutu1Text"></p>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6 d-flex align-items-stretch services-wrap">
-                <div class="services d-flex">
-                  <div class="icon"><span class="flaticon-consult"></span></div>
-                  <div class="text">
-                    <h2 id="sayfa2Kutu3"></h2>
-                    <p class="mb-0" id="sayfa2Kutu3Text">.</p>
+                <div class="services">
+                  <div class="d-flex">
+                    <div class="icon"><span class="flaticon-consult"></span></div>
+                    <div class="text">
+                      <h2 id="sayfa2Kutu2"></h2>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="col-lg-6 d-flex align-items-stretch services-wrap">
-                <div class="services d-flex">
-                  <div class="icon"><span class="flaticon-construction"></span></div>
                   <div class="text">
-                    <h2 id="sayfa2Kutu4"></h2>
-                    <p class="mb-0" id="sayfa2Kutu4Text"></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 d-flex align-items-stretch services-wrap">
-                <div class="services d-flex">
-                  <div class="icon"><span class="flaticon-floor-plan"></span></div>
-                  <div class="text">
-                    <h2 id="sayfa2Kutu2"></h2>
                     <p class="mb-0" id="sayfa2Kutu2Text"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 d-flex align-items-stretch services-wrap">
+                <div class="services">
+                  <div class="d-flex">
+                    <div class="icon"><span class="flaticon-construction"></span></div>
+                    <div class="text">
+                      <h2 id="sayfa2Kutu3"></h2>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <p class="mb-0" id="sayfa2Kutu3Text"></p>
+                  </div>
+                </div>
+                <div class="text">
+                </div>
+              </div>
+              <div class="col-lg-6 d-flex align-items-stretch services-wrap">
+                <div class="services">
+                  <div class="d-flex">
+                    <div class="icon"><span class="flaticon-building"></span></div>
+                    <div class="text">
+                      <h2 id="sayfa2Kutu4"></h2>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <p class="mb-0" id="sayfa2Kutu4Text"></p>
                   </div>
                 </div>
               </div>
@@ -177,7 +199,9 @@
             </div>
             <div class="col-md-4 d-flex align-items-center" data-aos="fade-up" data-aos-delay="100"
               data-aos-duration="1000">
-              <p class="mb-0"><a href="contact.html" class="btn btn-primary py-md-4 py-3 px-md-5 px-4" style="font-size: large;" id="sayfa3Button"></a></p>
+              <p class="mb-0">
+                <a href="contact.html" class="btn btn-primary py-md-4 py-3 px-md-5 px-4" style="font-size: large;" id="sayfa3Button"></a>
+              </p>
             </div>
           </div>
         </div>
@@ -233,7 +257,7 @@
     <div class="container">
       <div class="row section-counter">
         <div class="col-sm-6 col-md-6 col-lg-3 d-flex align-items-stretch">
-          <div class="counter-wrap-2 d-flex" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="counter-wrap-2 d-flex" style="justify-content: center;" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
             <div class="icon">
               <span class="flaticon-project"></span>
             </div>
@@ -244,7 +268,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-3 d-flex align-items-stretch">
-          <div class="counter-wrap-2 d-flex" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+          <div class="counter-wrap-2 d-flex" style="justify-content: center;" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
             <div class="icon">
               <span class="flaticon-engineer"></span>
             </div>
@@ -310,7 +334,7 @@
               <h2><a href="#">High Tower Works</a></h2>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
     </div>
   </section>
@@ -339,7 +363,9 @@
                       <!-- <span class="position">Marketing Manager</span> -->
                     </div>
                   </div>
-                  <p class="mb-4 msg">"Wir sind sehr zufrieden, mit Ihrem Unternehmen zusammengearbeitet zu haben. Durch die hohe Qualität, Zuverlässigkeit und pünktliche Lieferung unseres Bauprojekts haben Sie unsere Erwartungen übertroffen. Wir fühlen uns glücklich, mit Ihnen zusammengearbeitet zu haben."</p>
+                  <p class="mb-4 msg">"Wir sind sehr zufrieden, mit Ihrem Unternehmen zusammengearbeitet zu haben. Durch
+                    die hohe Qualität, Zuverlässigkeit und pünktliche Lieferung unseres Bauprojekts haben Sie unsere
+                    Erwartungen übertroffen. Wir fühlen uns glücklich, mit Ihnen zusammengearbeitet zu haben."</p>
                 </div>
               </div>
             </div>
@@ -356,7 +382,9 @@
                       <!-- <span class="position">Marketing Manager</span> -->
                     </div>
                   </div>
-                  <p class="mb-4 msg">"İnşaat şirketiniz, projemizi zamanında tamamlayarak yüksek kalite standartlarına uygun bir iş çıkardı. Profesyonel ekibinizin titiz çalışması ve güvenilir hizmetinizden dolayı çok memnun kaldık."</p>
+                  <p class="mb-4 msg">"İnşaat şirketiniz, projemizi zamanında tamamlayarak yüksek kalite standartlarına
+                    uygun bir iş çıkardı. Profesyonel ekibinizin titiz çalışması ve güvenilir hizmetinizden dolayı çok
+                    memnun kaldık."</p>
                 </div>
               </div>
             </div>
@@ -373,7 +401,9 @@
                       <!-- <span class="position">Marketing Manager</span> -->
                     </div>
                   </div>
-                  <p class="mb-4 msg">"We are delighted to work with your company. Your team's attention to detail and reliable service resulted in the timely completion of our project, exceeding our expectations. We consider ourselves fortunate to have had the opportunity to work with you."</p>
+                  <p class="mb-4 msg">"We are delighted to work with your company. Your team's attention to detail and
+                    reliable service resulted in the timely completion of our project, exceeding our expectations. We
+                    consider ourselves fortunate to have had the opportunity to work with you."</p>
                 </div>
               </div>
             </div>
@@ -390,16 +420,18 @@
                       <!-- <span class="position">Marketing Manager</span> -->
                     </div>
                   </div>
-                  <p class="mb-4 msg">"Şirketinizin sağladığı hizmetten son derece memnun kaldık. Yüksek kalite standartlarına ve zamanında teslimata verdiğiniz önem, projemizin başarılı bir şekilde tamamlanmasını sağladı. Teşekkürler!"</p>
+                  <p class="mb-4 msg">"Şirketinizin sağladığı hizmetten son derece memnun kaldık. Yüksek kalite
+                    standartlarına ve zamanında teslimata verdiğiniz önem, projemizin başarılı bir şekilde
+                    tamamlanmasını sağladı. Teşekkürler!"</p>
                 </div>
               </div>
-            </div>            
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-<!-- 
+  <!-- 
   <section class="ftco-appointment img" style="background-image: url(images/bg_2.jpg)">
     <div class="overlay"></div>
     <div class="container-xl">
@@ -589,10 +621,10 @@
             <h2 class="ftco-heading-2" id="sorunuzVarmi"></h2>
             <div class="block-23 mb-3">
               <ul>
-                <li><span class="icon fa fa-map marker"></span><span class="text">Vogelsanger Weg 91, 40470 Düsseldorf</span></li>
+                <li><span class="icon fa fa-map marker"></span><span class="text">Vogelsanger Weg 91, 40470
+                    Düsseldorf</span></li>
                 <li><span class="icon fa fa-phone"></span><span class="text">+49-211-5424-9080</span></li>
-                <li><span class="icon fa fa-paper-plane pr-4"></span><span
-                      class="text">info@mert-ka-bau.de</span></li>
+                <li><span class="icon fa fa-paper-plane pr-4"></span><span class="text">info@mert-ka-bau.de</span></li>
               </ul>
             </div>
           </div>
@@ -618,7 +650,8 @@
   <script src="js/glightbox.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="language/indexLang.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
 

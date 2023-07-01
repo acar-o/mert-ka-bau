@@ -1120,7 +1120,8 @@
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important; }
+  display: flex !important; 
+  align-items: end;}
 
 .d-inline-flex {
   display: -webkit-inline-box !important;

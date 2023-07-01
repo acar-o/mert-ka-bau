@@ -7814,6 +7814,7 @@ fieldset:disabled .btn {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
+  align-items: end;
 }
 
 .d-inline-flex {
@@ -12968,7 +12969,7 @@ h5,
   padding: 0;
   position: absolute;
   width: 100%;
-  top: 35px;
+  /* top: 35px; */
   height: 89px;
 }
 
@@ -12977,7 +12978,7 @@ h5,
     background: #F7F7F7 !important;
     position: absolute;
     width: 100%;
-    top: 50px;
+    /* top: 50px; */
     height: 89px;
   }
 }
@@ -13538,7 +13539,6 @@ textarea.form-control {
 }
 
 .services-wrap .services {
-  padding: 15px;
   display: block;
   width: 100%;
   margin-bottom: 0px;

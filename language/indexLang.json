@@ -75,39 +75,39 @@
         "en": "PLANNING"
     },
     "sayfa2Kutu2": {
-        "de": "BAUÜBERWACHUNG",
-        "tr": "İNŞAAT DENETİMİ",
-        "en": "BUDGET PLANNING"
+        "de": "VORBEREITUNG",
+        "tr": "HAZIRLIK",
+        "en": "PREPARATION"
     },
     "sayfa2Kutu3": {
-        "de": "BUDGET PLANUNG",
-        "tr": "BÜTÇE PLANLAMA",
-        "en": "CONSTRUCTION SUPERVISION"
-    },
-    "sayfa2Kutu4": {
         "de": "BAUEN",
         "tr": "İNŞAAT",
         "en": "CONSTRUCTION"
     },
+    "sayfa2Kutu4": {
+        "de": "LIEFERUNG",
+        "tr": "TESLİMAT",
+        "en": "DELIVERY"
+    },
     "sayfa2Kutu1Text": {
-        "de": "Vorschriftsmäßige Planung Ihres Bauvorhabens",
-        "tr": "Bina projenizin doğru şekilde planlanması",
-        "en": "Proper planning of your building project"
+        "de": "Wir planen das Projekt, indem wir die Bedürfnisse und Erwartungen der Kunden verstehen.",
+        "tr": "Müşteri ihtiyaçlarını ve beklentilerini anlayarak projeyi planlarız",
+        "en": "We plan the project by understanding customer needs and expectations."
     },
     "sayfa2Kutu2Text": {
-        "de": "Regelkonforme Ausführung Ihres Bauvorhabens",
-        "tr": "İnşaatinizin kurallara uygun şekilde yürütülmesi",
-        "en": "Execution of your construction in accordance with the rules"
+        "de": "Wir bereiten die Baustelle vor, holen die Genehmigungen ein und beschaffen die Materialien.",
+        "tr": "İnşaat sahasını hazırlarız, izinleri alırız ve malzemeleri temin ederiz.",
+        "en": "We prepare the construction site, obtain the permits and procure the materials."
     },
     "sayfa2Kutu3Text": {
-        "de": "Genaue Kalkulation Ihrer zu entstehenden Kosten",
-        "tr": "Oluşacak maliyetlerinizin kesin olarak hesaplanması",
-        "en": "Precise calculation of your costs to be incurred"
+        "de": "Wir erwecken das Projekt zum Leben und schließen den Bau des Gebäudes ab.",
+        "tr": "Projeyi hayata geçirir, yapının inşasını baştan sona gerçekleştiririz",
+        "en": "We bring the project to life and complete the construction of the building."
     },
     "sayfa2Kutu4Text": {
-        "de": "Plangemäße Umsetzung Ihrer Bauarbeiten",
-        "tr": "İnşaat işlerinizin plana göre uygulanması",
-        "en": "Implementation of your construction work according to plan"
+        "de": "Wir nehmen den letzten Schliff vor, schließen die Endarbeiten ab und liefern das Projekt an den Kunden.",
+        "tr": "Son dokunuşları yapar, bitirme işlemlerini tamamlar ve projeyi müşteriye teslim ederiz.",
+        "en": "IWe make the final touches, complete the finishing works and deliver the project to the customer."
     },
     "sayfa3Text": {
         "de": "Für Bau- und Renovierungsarbeiten können Sie sich an uns wenden",
@@ -140,19 +140,19 @@
         "en": "Sanitizing"
     },
     "sayfa4Text1": {
-        "de": "Wir kümmern uns um alle möglichen Angelegenheiten, die mit Ihrem Rohbau zusammenhängen.",
-        "tr": "Kaba inşaat ile ilgili her türlü konu ile ilgileniriz.",
-        "en": "We take care of all sorts of matters related to your rough construction."
+        "de": "Wir bieten mit unserem Expertenteam bei Bauprojekten zuverlässigen und pünktlichen Service gemäß hohen Qualitätsstandards. Wir erfüllen Ihre Baubedürfnisse mit einem professionellen Ansatz und arbeiten daran, Ihre Träume wahr werden zu lassen.",
+        "tr": "İnşaat projelerinde uzman ekibimizle, yüksek kalite standartlarına uygun şekilde, güvenilir ve zamanında hizmet sunarız. İnşaat ihtiyaçlarınızı profesyonel bir yaklaşımla karşılarız ve hayallerinizi gerçeğe dönüştürmek için çalışırız.",
+        "en": "We provide reliable and timely service in accordance with high quality standards with our expert team in construction projects. We meet your construction needs with a professional approach and work to make your dreams come true."
     },
     "sayfa4Text2": {
-        "de": "Unser Team aus Profis ist an diese Umstände gewöhnt, sodass wir der perfekte Partner für Sie sind, wenn Sie ein Gebäude professionell renovieren lassen möchten.",
-        "tr": "Profesyonellerden oluşan ekibimiz bu koşullara alışkın olduğundan, bir binayı profesyonelce yeniletmek istiyorsanız sizin için mükemmel ortağız.",
-        "en": "Our team of professionals are used to these circumstances, so we are the perfect partner for you if you want to have a building renovated professionally."
+        "de": "Wir renovieren und modernisieren bestehende Bauwerke professionell und gestalten sie nach Ihren Wünschen. Mit unserem qualitätsorientierten Ansatz bei Sanierungsprojekten bieten wir Ihnen hervorragende Ergebnisse.",
+        "tr": "Mevcut yapıları profesyonel bir yaklaşımla yeniler, modernize eder ve isteklerinizi karşılayacak şekilde tasarlarız. Yenileme projelerinde kalite odaklı yaklaşımımızla size mükemmel sonuçlar sunarız.",
+        "en": "We renovate and modernize existing structures with a professional approach and design them to meet your wishes. We offer you excellent results with our quality-oriented approach in renovation projects."
     },
     "sayfa4Text3": {
-        "de": "Mit unserem Team aus Profis desinfizieren und erneuern wir die Reinigungsflächen fachgerecht.",
-        "tr": "Profesyonellerden oluşan ekibimizle, temizlik alanlarini profesyonelce dezenfekte ediyor ve yeniliyoruz.",
-        "en": "With our team of professionals, we professionally disinfect and renew the cleaning areas."
+        "de": "In Sanierungsprojekten führen wir detaillierte Analysen und Korrekturstudien an bestehenden Strukturen durch. Mit unserem Expertenteam steigern wir die Funktionalität von Gebäuden, optimieren die Energieeffizienz und bieten nachhaltige Lösungen.",
+        "tr": "Dezenfektasyon projelerinde, mevcut yapılarda detaylı analiz ve düzeltme çalışmaları yaparız. Uzman ekibimizle, yapıların işlevselliğini artırır, enerji verimliliğini optimize eder ve sürdürülebilir çözümler sunarız. ",
+        "en": "In sanitizing projects, we carry out detailed analysis and correction studies on existing structures. With our expert team, we increase the functionality of buildings, optimize energy efficiency and offer sustainable solutions."
     },
     "sayfa5Header": {
         "de": "Diensleistungen",
