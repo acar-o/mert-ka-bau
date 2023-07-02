@@ -13938,7 +13938,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 8em 0;
+  padding: 8em 0 4em 0;
   position: relative;
   width: 100%;
   overflow-x: hidden;
@@ -13946,7 +13946,7 @@ textarea.form-control {
 
 @media (max-width: 575.98px) {
   .ftco-section {
-    padding: 6em 0;
+    padding: 6em 0 3em 0;
   }
 }
 

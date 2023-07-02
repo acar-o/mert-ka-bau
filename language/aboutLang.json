@@ -98,5 +98,45 @@
         "de": "Alle Rechte vorbehalten",
         "tr": "Bütün hakları saklıdır",
         "en": "All rights reserved"
+    },
+    "teamAndStaff": {
+        "de": "Team & Mitarbeiter",
+        "tr": "Ekip & personel",
+        "en": "Team & Staff"
+    },
+    "baziCalisanlarimiz": {
+        "de": "Einige unserer Teammitglieder",
+        "tr": "Ekip üyelerimizden bazıları",
+        "en": "Some of our team members"
+    },
+    "calisanTitle1": {
+        "de": "Sicherheitsbeauftragter",
+        "tr": "güvenlik uzmanı",
+        "en": "security officer"
+    },
+    "calisanTitle2": {
+        "de": "Elektriker",
+        "tr": "elektrikçi",
+        "en": "electrician"
+    },
+    "calisanTitle3": {
+        "de": "ARCHITEKT",
+        "tr": "MİMAR",
+        "en": "ARCHITECT"
+    },
+    "calisanTitle4": {
+        "de": "STAHLFLECHTER",
+        "tr": "ÇELİK DOKUMACI",
+        "en": "STEEL WEAVER"
+    },
+    "testimonial": {
+        "de": "Zeugnis",
+        "tr": "Referans",
+        "en": "Testimonial"
+    },
+    "happyClients": {
+        "de": "Zufriedene Kunden",
+        "tr": "Mutlu Müşteriler",
+        "en": "Happy Clients"
     }
 }
