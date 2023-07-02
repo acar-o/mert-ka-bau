@@ -29,6 +29,11 @@
         "tr": "MERT-KA İNŞAAT",
         "en": "MERT-KA CONSTRUCTION"
     },
+    "footerSirketIsimFooter": {
+        "de": "MERT-KA BAU GMBH",
+        "tr": "MERT-KA İNŞAAT",
+        "en": "MERT-KA CONSTRUCTION"
+    },
     "bizkimiz": {
         "de": "Wer sind wir?",
         "tr": "Biz Kimiz?",
@@ -77,7 +82,7 @@
     "footerLinks2": {
         "de": "Dienstleistungen",
         "tr": "Hİzmetler",
-        "en": "Links"
+        "en": "Services"
     },
     "footerLinks3": {
         "de": "Projekte",
