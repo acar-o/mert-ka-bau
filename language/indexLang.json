@@ -56,7 +56,7 @@
     },
     "sayfa2Text": {
         "de": "Da wir der Kundenzufriedenheit große Bedeutung beimessen, ist es unser Ziel, die Erwartungen unserer Kunden durch sorgfältige Arbeit an jedem Projekt zu erfüllen. Mit den Lösungen, die wir in den Bereichen Bau, Renovierung und Desinfektion anbieten, steigern wir den Wert Ihrer Räume.",
-        "tr": "Müşteri memnuniyetine verdiğimiz önemle, her projede özenle çalışarak müşterilerimizin beklentilerini karşılamayı hedefliyoruz. İnşaat, yenileme ve dezenfektasyon alanlarında sunduğumuz çözümlerle mekanlarınıza değer katıyoruz.",
+        "tr": "Müşteri memnuniyetine verdiğimiz önemle, her projede özenle çalışarak müşterilerimizin beklentilerini karşılamayı hedefliyoruz. İnşaat, yenileme ve sanitasyon alanlarında sunduğumuz çözümlerle mekanlarınıza değer katıyoruz.",
         "en": "With the importance we attach to customer satisfaction, we aim to meet the expectations of our customers by working diligently on each project. We add value to your spaces with the solutions we offer in the fields of construction, renovation and disinfection."
     },
     "mert-ka": {
@@ -136,7 +136,7 @@
     },
     "sayfa4Header3": {
         "de": "Sanierung",
-        "tr": "Dezenfektasyon",
+        "tr": "Sanitasyon",
         "en": "Sanitizing"
     },
     "sayfa4Text1": {
@@ -151,7 +151,7 @@
     },
     "sayfa4Text3": {
         "de": "In Sanierungsprojekten führen wir detaillierte Analysen und Korrekturstudien an bestehenden Strukturen durch. Mit unserem Expertenteam steigern wir die Funktionalität von Gebäuden, optimieren die Energieeffizienz und bieten nachhaltige Lösungen.",
-        "tr": "Dezenfektasyon projelerinde, mevcut yapılarda detaylı analiz ve düzeltme çalışmaları yaparız. Uzman ekibimizle, yapıların işlevselliğini artırır, enerji verimliliğini optimize eder ve sürdürülebilir çözümler sunarız. ",
+        "tr": "Sanitasyon projelerinde, mevcut yapılarda detaylı analiz ve düzeltme çalışmaları yaparız. Uzman ekibimizle, yapıların işlevselliğini artırır, enerji verimliliğini optimize eder ve sürdürülebilir çözümler sunarız. ",
         "en": "In sanitizing projects, we carry out detailed analysis and correction studies on existing structures. With our expert team, we increase the functionality of buildings, optimize energy efficiency and offer sustainable solutions."
     },
     "sayfa5Header": {
@@ -201,7 +201,7 @@
     },
     "footerMetin": {
         "de": "Mit unserer 23-jährigen Erfahrung im Bereich Bau, Renovierung und Desinfektion bieten wir als Unternehmen ein umfassendes Leistungsspektrum an. Unser Expertenteam und moderne Technologien ermöglichen es uns, Ihnen lösungsorientierte und effektive Lösungen auf höchstem Qualitätsniveau anzubieten.",
-        "tr": "İnşaat, yenileme ve dezenfektasyon alanında 23 yıllık deneyime sahip olan şirketimiz, uzman ekibimiz ve modern teknolojilerimizle, en yüksek standartlarda çalışarak size çözüm odaklı ve etkili çözümler sunmaktayız.",
+        "tr": "İnşaat, yenileme ve sanitasyon alanında 23 yıllık deneyime sahip olan şirketimiz, uzman ekibimiz ve modern teknolojilerimizle, en yüksek standartlarda çalışarak size çözüm odaklı ve etkili çözümler sunmaktayız.",
         "en": "With our 23 years of expertise in the construction, renovation, and disinfection field, our company offers comprehensive services. Our expert team and modern technologies enable us to provide you with solution-oriented and effective solutions at the highest standards."
     },
     "footerLinks": {

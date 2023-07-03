@@ -24,6 +24,71 @@
         "tr": "Hİzmetler",
         "en": "Services"
     },
+    "servicesHeader":{
+        "de": "Dienstleistungen",
+        "tr": "Hİzmetler",
+        "en": "Services"
+    },
+    "serviceBauHeader1":{
+        "de": "Rohbau",
+        "tr": "İnşaat",
+        "en": "Construction"
+    },
+    "serviceBau1":{
+        "de": "Mit unserem erfahrenen Team bieten wir zuverlässige und termingerechte Dienstleistungen gemäß hoher Qualitätsstandards in Bauprojekten an. Wir erfüllen Ihre Bauanforderungen mit einem professionellen Ansatz und arbeiten daran, Ihre Träume in die Realität umzusetzen. In jedem Schritt legen wir Wert auf Zuverlässigkeit und pünktliche Lieferung, um den Erfolg Ihrer Bauprojekte sicherzustellen. Wir nutzen die besten Praktiken und neuesten Technologien, um die Erwartungen unserer Kunden zu übertreffen und außergewöhnliche Ergebnisse zu erzielen.",
+        "tr": "İnşaat projelerinde uzman ekibimizle, titizlikle çalışarak müşterilerimize yüksek kalite standartlarına uygun hizmet sunuyoruz. Her aşamada güvenilirlik ve zamanında teslimatı ön planda tutarak, inşaat projelerinizde başarıya ulaşmanız için çalışıyoruz. Müşterilerimizin beklentilerini aşan sonuçlar elde etmek için en iyi uygulamaları ve en son teknolojileri kullanıyoruz.",
+        "en": "With our expert team, we provide reliable and timely services in accordance with high-quality standards in construction projects. We meet your construction needs with a professional approach and strive to turn your dreams into reality. Throughout the process, we prioritize reliability and on-time delivery to ensure success in your construction projects. We utilize the best practices and latest technologies to exceed our clients' expectations and achieve exceptional results."
+    },
+    "serviceBau2":{
+        "de": "Um Ihre Baubedürfnisse mit einem professionellen Ansatz zu erfüllen, widmet unser Team jedem Detail große Aufmerksamkeit. Wir arbeiten sorgfältig daran, die Spezifikationen Ihres Projekts zu verstehen, berücksichtigen Budget- und Zeitbeschränkungen und bieten die passenden Lösungen an. Während aller Phasen Ihres Projekts arbeiten wir eng mit Ihnen zusammen, um Ihre Vision in die Realität umzusetzen. Unsere Fachkenntnisse und Hingabe stellen sicher, dass jeder Aspekt des Bauprozesses präzise und sorgfältig behandelt wird.",
+        "tr": "İnşaat ihtiyaçlarınızı profesyonel bir yaklaşımla karşılamak için uzman ekibimizle birlikte her detaya özen gösteriyoruz. Projenizin özelliklerini anlamak, bütçe ve zaman çerçevesini dikkate almak ve en uygun çözümleri sunmak için titizlikle çalışıyoruz. Hayallerinizi gerçeğe dönüştürmek için projenizin tüm aşamalarında sizinle işbirliği içinde çalışıyoruz.",
+        "en": "SerTo meet your construction needs with a professional approach, our team pays attention to every detail. We work diligently to understand the specifications of your project, taking into account budget and time constraints, and provide the most suitable solutions. Throughout all stages of your project, we collaborate closely with you to turn your vision into a tangible reality. Our expertise and dedication ensure that every aspect of the construction process is handled with precision and care.vices"
+    },
+    "serviceBau3":{
+        "de": "Kundenzufriedenheit steht bei unseren Bauleistungen im Vordergrund. Wir legen Wert darauf, die Erwartungen unserer Kunden zu verstehen und zu erfüllen, indem wir eine aktive Kommunikation fördern. Um die besten Ergebnisse in Ihren Bauprojekten zu erzielen, etablieren wir eine starke Zusammenarbeit und pflegen einen kontinuierlichen Informationsaustausch. Wir sind Profis, die sich dafür einsetzen, mit Ihnen gemeinsam Ihre Vision in die Tat umzusetzen.",
+        "tr": "İnşaat hizmetlerimizde müşteri memnuniyetini ön planda tutuyoruz. Müşterilerimizin beklentilerini anlamak ve onları karşılamak için aktif bir iletişim sağlıyoruz. İnşaat projelerinizde en iyi sonuçları elde etmek için sağlam bir işbirliği ve sürekli olarak bilgi paylaşımı sağlıyoruz. Profesyoneliz, vizyonunuzu hayata geçirmek için sizinle birlikte çalışıyoruz.",
+        "en": "Customer satisfaction is at the forefront of our construction services. We prioritize understanding and meeting our clients' expectations by fostering active communication. To achieve the best results in your construction projects, we establish a strong collaboration and maintain continuous information sharing. We are professionals committed to working with you to bring your vision to life."
+    },
+    "serviceRenoHeader":{
+        "de": "Renovierung",
+        "tr": "Yenileme",
+        "en": "Renovation"
+    },
+    "serviceReno1":{
+        "de": "Wir erneuern bestehende Strukturen mit einem professionellen Ansatz, modernisieren sie und gestalten sie nach Ihren Anforderungen. Mit unserem qualitätsorientierten Ansatz in Renovierungsprojekten bieten wir Ihnen ausgezeichnete Ergebnisse. Wir wählen sorgfältig Materialien aus und planen akribisch, um Kundenzufriedenheit in Ihren Renovierungsprojekten zu gewährleisten.",
+        "tr": "Mevcut yapıları profesyonel bir yaklaşımla yenileme projeleriyle canlandırır, modernize eder ve isteklerinizi karşılayacak şekilde tasarlarız. Her adımda kaliteye odaklanan yaklaşımımızla, yenileme projelerinizde size mükemmel sonuçlar sunmayı hedefliyoruz. Müşteri memnuniyetini en üst düzeyde tutarak, özenle seçilen malzemeler ve detaylı planlama ile yenileme işlerinizi gerçekleştiriyoruz.",
+        "en": "We renew existing structures with a professional approach, modernize them, and design them to meet your requirements. With our quality-focused approach in renovation projects, we provide you with excellent results. We carefully select materials and plan meticulously to ensure customer satisfaction in your renovation projects."
+    },
+    "serviceReno2":{
+        "de": "Unser Expertenteam für Renovierungsprojekte bietet maßgeschneiderte Lösungen, unter Berücksichtigung der Eigenschaften der bestehenden Struktur. Durch die Kombination von Ästhetik, Funktionalität und Langlebigkeit arbeiten wir daran, die gewünschten Ergebnisse zu erzielen, während wir das bestehende Gebäude modernisieren. Das Verständnis der Kundenanforderungen und die entsprechende Ausrichtung des Projekts sind die grundlegenden Prinzipien unserer Renovierungsprojekte.",
+        "tr": "Yenileme projelerinde uzman ekibimiz, mevcut yapının özelliklerini dikkate alarak size özelleştirilmiş çözümler sunar. Estetik, fonksiyonellik ve dayanıklılık unsurlarını bir araya getirerek, mevcut yapıyı modernize ederken size istediğiniz sonuçları sağlamak için çalışırız. Müşteri beklentilerini anlamak ve projenin amacına uygun şekilde hareket etmek, yenileme projelerimizin temel prensipleridir.",
+        "en": "Our expert team in renovation projects offers customized solutions, taking into account the characteristics of the existing structure. By combining aesthetics, functionality, and durability, we work to deliver the desired outcomes while modernizing the existing building. Understanding customer expectations and aligning the project accordingly are the fundamental principles of our renovation projects."
+    },
+    "serviceReno3":{
+        "de": "Wir achten auf jedes Detail in unseren Renovierungsprojekten. Durch die Analyse Ihrer Bedürfnisse und Wünsche präsentieren wir Ihnen einzigartige Designs. Während des Renovierungsprozesses sorgen wir für eine angemessene Planung und Koordination, um die Arbeiten reibungslos und mit höchster Qualität abzuschließen. Mit unserem kundenorientierten Ansatz streben wir d",
+        "tr": "Yenileme projelerimizde her detayı titizlikle ele alırız. İhtiyaçlarınızı ve isteklerinizi analiz ederek, size özgün tasarımlar sunarız. Yenileme sürecinde, işlerinizi aksamadan ve en iyi kalitede tamamlamak için uygun planlama ve koordinasyon sağlarız. Müşteri odaklı yaklaşımımızla, yenileme projelerinizde size memnuniyet ve güven sağlamak için çaba sarf ederiz.",
+        "en": "We pay attention to every detail in our renovation projects. By analyzing your needs and desires, we present you with unique designs. During the renovation process, we ensure proper planning and coordination to complete the work smoothly and with the highest quality. With our customer-oriented approach, we strive to provide satisfaction and trust in your renovation projects."
+    },
+    "serviceSaniHeader":{
+        "de": "Sanierung",
+        "tr": "Sanitasyon",
+        "en": "Sanitizing"
+    },
+    "serviceSani1":{
+        "de": "In Sanierungsprojekten führen wir detaillierte Analysen und Korrekturstudien an bestehenden Strukturen durch. Mit unserem Expertenteam verbessern wir die Funktionalität von Gebäuden, optimieren die Energieeffizienz und bieten nachhaltige Lösungen. Wir bewerten sorgfältig den Zustand der Struktur, identifizieren Bereiche, die Verbesserungen erfordern, und entwickeln Strategien für eine effektive Sanierung.",
+        "tr": "Sanitasyon projelerinde, mevcut yapıların detaylı analizlerini ve düzeltici çalışmalarını gerçekleştiriyoruz. Uzman ekibimizle birlikte binaların işlevselliğini arttırıyor, enerji verimliliğini optimize ediyor ve sürdürülebilir çözümler sunuyoruz. Yapının durumunu dikkatlice değerlendiriyor, iyileştirme gerektiren alanları belirliyor ve etkili bir sanitasyon için stratejiler geliştiriyoruz.",
+        "en": "In renovation projects, we conduct detailed analyses and corrective studies on existing structures. With our expert team, we enhance the functionality of buildings, optimize energy efficiency, and provide sustainable solutions. We carefully assess the condition of the structure, identifying areas that require improvement and developing strategies for effective renovation."
+    },
+    "serviceSani2":{
+        "de": "Unser Fokus in Sanierungsprojekten liegt darauf, bestehende Strukturen zu revitalisieren und zu erneuern. Durch gründliche Analysen identifizieren wir Möglichkeiten zur Verbesserung der Funktionalität und zur Behebung von strukturellen Mängeln. Unser Expertenteam arbeitet eng mit den Kunden zusammen, um ihre spezifischen Bedürfnisse und Ziele zu verstehen und sicherzustellen, dass der Sanierungsprozess ihren Vorstellungen entspricht. Wir setzen innovative Techniken und nachhaltige Praktiken ein, um langlebige und umweltfreundliche Lösungen zu liefern.",
+        "tr": "Sanitasyon projelerinde odak noktamız, mevcut yapıları canlandırmak ve yenilemektir. Detaylı analizler sayesinde işlevselliği artıracak ve yapısal eksiklikleri gidermek için fırsatlar belirliyoruz. Uzman ekibimiz, müşterilerle yakın bir şekilde çalışarak özel ihtiyaçlarını ve hedeflerini anlıyor ve sanitasyon sürecinin onların vizyonuyla uyumlu olmasını sağlıyor. İnovatif teknikler ve sürdürülebilir uygulamaları kullanarak uzun ömürlü ve çevre dostu çözümler sunuyoruz.",
+        "en": "Our focus in renovation projects is to revitalize and rejuvenate existing structures. Through thorough analysis, we identify opportunities to enhance functionality and address any structural deficiencies. Our expert team works closely with clients to understand their specific needs and goals, ensuring that the renovation process aligns with their vision. We leverage innovative techniques and sustainable practices to deliver long-lasting and environmentally friendly solutions."
+    },
+    "serviceSani3":{
+        "de": "Nachhaltigkeit spielt eine wichtige Rolle in unseren Sanierungsprojekten. Wir streben danach, den Umwelteinfluss zu minimieren, indem wir energieeffiziente Systeme integrieren, umweltfreundliche Materialien nutzen und nachhaltige Designprinzipien umsetzen. Durch die Optimierung der Energieeffizienz der sanierten Strukturen reduzieren wir nicht nur die Betriebskosten für unsere Kunden, sondern leisten auch einen Beitrag zu einer grüneren Zukunft. Unser akribischer Ansatz und unser Qualitätsbewusstsein gewährleisten, dass die sanierten Räume höchsten Ansprüchen an Funktionalität, Ästhetik und Nachhaltigkeit gerecht werden.",
+        "tr": "Sürdürülebilirlik, sanitasyon projelerimizde önemli bir düşüncedir. Enerji verimli sistemleri entegre ederek, çevre dostu malzemeler kullanarak ve sürdürülebilir tasarım prensiplerini uygulayarak çevresel etkiyi minimize etmeyi hedefliyoruz. Yenilenen yapıların enerji performansını optimize ederek, müşterilerimize işletme maliyetlerini azaltmanın yanı sıra daha yeşil bir geleceğe katkıda bulunuyoruz. Titiz yaklaşımımız ve kaliteye olan bağlılığımız, sanasyon projelerinizin işlevsellik, estetik ve sürdürülebilirlik açısından en yüksek standartları karşılamasını sağlar.",
+        "en": "Sustainability is a key consideration in our renovation projects. We aim to minimize the environmental impact by incorporating energy-efficient systems, utilizing eco-friendly materials, and implementing sustainable design principles. By optimizing the energy performance of the renovated structures, we not only reduce operating costs for our clients but also contribute to a greener future. Our meticulous approach, combined with a commitment to quality, ensures that the renovated spaces meet the highest standards of functionality, aesthetics, and sustainability"
+    },
     "footerSirketIsim": {
         "de": "MERT-KA BAU GMBH",
         "tr": "MERT-KA İNŞAAT",
@@ -31,7 +96,7 @@
     },
     "footerMetin": {
         "de": "Mit unserer 23-jährigen Erfahrung im Bereich Bau, Renovierung und Desinfektion bieten wir als Unternehmen ein umfassendes Leistungsspektrum an. Unser Expertenteam und moderne Technologien ermöglichen es uns, Ihnen lösungsorientierte und effektive Lösungen auf höchstem Qualitätsniveau anzubieten.",
-        "tr": "İnşaat, yenileme ve dezenfektasyon alanında 23 yıllık deneyime sahip olan şirketimiz, uzman ekibimiz ve modern teknolojilerimizle, en yüksek standartlarda çalışarak size çözüm odaklı ve etkili çözümler sunmaktayız.",
+        "tr": "İnşaat, yenileme ve sanitasyon alanında 23 yıllık deneyime sahip olan şirketimiz, uzman ekibimiz ve modern teknolojilerimizle, en yüksek standartlarda çalışarak size çözüm odaklı ve etkili çözümler sunmaktayız.",
         "en": "With our 23 years of expertise in the construction, renovation, and disinfection field, our company offers comprehensive services. Our expert team and modern technologies enable us to provide you with solution-oriented and effective solutions at the highest standards."
     },
     "footerLinks": {
