@@ -96,7 +96,7 @@ body {
   background-color: #555;
   color: white;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 6px;
   scroll-behavior: smooth;
   width: 50px;
   opacity: 0.6;
@@ -104,6 +104,7 @@ body {
 
 #myBtn:hover {
   background-color: #FFA62B;
+  opacity: 1;
 }
 
 

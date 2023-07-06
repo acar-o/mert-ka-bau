@@ -89,6 +89,16 @@
         "tr": "Sürdürülebilirlik, sanitasyon projelerimizde önemli bir düşüncedir. Enerji verimli sistemleri entegre ederek, çevre dostu malzemeler kullanarak ve sürdürülebilir tasarım prensiplerini uygulayarak çevresel etkiyi minimize etmeyi hedefliyoruz. Yenilenen yapıların enerji performansını optimize ederek, müşterilerimize işletme maliyetlerini azaltmanın yanı sıra daha yeşil bir geleceğe katkıda bulunuyoruz. Titiz yaklaşımımız ve kaliteye olan bağlılığımız, sanasyon projelerinizin işlevsellik, estetik ve sürdürülebilirlik açısından en yüksek standartları karşılamasını sağlar.",
         "en": "Sustainability is a key consideration in our renovation projects. We aim to minimize the environmental impact by incorporating energy-efficient systems, utilizing eco-friendly materials, and implementing sustainable design principles. By optimizing the energy performance of the renovated structures, we not only reduce operating costs for our clients but also contribute to a greener future. Our meticulous approach, combined with a commitment to quality, ensures that the renovated spaces meet the highest standards of functionality, aesthetics, and sustainability"
     },
+    "sorunuzVarmi": {
+        "de": "Haben Sie Fragen?",
+        "tr": "Sorunuz mı var?",
+        "en": "Have a Questions?"
+    },
+    "copyright": {
+        "de": "Alle Rechte vorbehalten",
+        "tr": "Bütün hakları saklıdır",
+        "en": "All rights reserved"
+    },
     "footerSirketIsim": {
         "de": "MERT-KA BAU GMBH",
         "tr": "MERT-KA İNŞAAT",
