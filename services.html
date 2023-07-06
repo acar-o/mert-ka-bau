@@ -19,7 +19,19 @@
   <link rel="stylesheet" href="css/glightbox.min.css">
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
- 
+  <style>
+    #servicesHeader {
+      font-size: 6vw;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 575.98px) {
+      #servicesHeader {
+        font-size: 10vw;
+        text-transform: uppercase;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -47,9 +59,9 @@
                   <li><a href="#"><span class="fa fa-instagram"></span></a></li>
                 </ul>-->
           <ul class="ftco-social-top d-flex align-items-center" id="dilbayraklari">
-            <li><img src="images/ger.png" class="dilflag" alt="" id="germanBtn"></li>
-            <li><img src="images/tur.png" class="dilflag" alt="" id="turkishBtn"></li>
-            <li><img src="images/ing.png" class="dilflag" alt="" id="englishBtn"></li>
+            <li><img src="images/ger.png" class="dilflag" title="Deutsch" id="germanBtn"></li>
+            <li><img src="images/tur.png" class="dilflag" title="Türkçe" id="turkishBtn"></li>
+            <li><img src="images/ing.png" class="dilflag" title="English" id="englishBtn"></li>
           </ul>
         </div>
       </div>
@@ -83,7 +95,7 @@
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center">
         <div class="col-md-9 pt-5 text-center">
-          <h1 class="mb-0 bread" id="servicesHeader"></h1>
+          <p class="mb-0 bread" id="servicesHeader"></p>
         </div>
       </div>
     </div>

@@ -18,6 +18,19 @@
     <link rel="stylesheet" href="css/glightbox.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      #projectsHeader {
+        font-size: 6vw;
+        text-transform: uppercase;
+      }
+  
+      @media (max-width: 575.98px) {
+        #projectsHeader {
+          font-size: 10vw;
+          text-transform: uppercase;
+        }
+      }
+    </style>
   </head>
   
   <body>
@@ -45,9 +58,9 @@
                   <li><a href="#"><span class="fa fa-instagram"></span></a></li>
                 </ul>-->
             <ul class="ftco-social-top d-flex align-items-center" id="dilbayraklari">
-              <li><img src="images/ger.png" class="dilflag" alt="" id="germanBtn"></li>
-              <li><img src="images/tur.png" class="dilflag" alt="" id="turkishBtn"></li>
-              <li><img src="images/ing.png" class="dilflag" alt="" id="englishBtn"></li>
+              <li><img src="images/ger.png" class="dilflag" title="Deutsch" id="germanBtn"></li>
+            <li><img src="images/tur.png" class="dilflag" title="Türkçe" id="turkishBtn"></li>
+            <li><img src="images/ing.png" class="dilflag" title="English" id="englishBtn"></li>
             </ul>
           </div>
         </div>
@@ -75,13 +88,11 @@
       </div>
     </nav>
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_5.jpg');">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
-          <div class="col-md-9 pt-5 text-center">
-            <p class="breadcrumbs"><span class="me-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Projects <i class="fa fa-chevron-right"></i></span></p>
-            <h1 class="mb-0 bread">Projects</h1>
+          <div class="col-md-9 pt-5 text-center"><p class="mb-0 bread" id="projectsHeader">Projects</p>
           </div>
         </div>
       </div>

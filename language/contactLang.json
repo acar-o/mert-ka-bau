@@ -23,5 +23,10 @@
         "de": "Dienstleistungen",
         "tr": "Hİzmetler",
         "en": "Services"
+    },
+    "kontakt":{
+        "de": "Kontaktieren Sie uns",
+        "tr": "Bİze ulaşın",
+        "en": "Contact us"
     }
 }

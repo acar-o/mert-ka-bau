@@ -13044,8 +13044,8 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 31px;
+  padding-bottom: 29px;
   padding-left: 15px;
   padding-right: 15px;
   font-weight: 600;
@@ -13163,8 +13163,6 @@ h5,
 }
 
 .hero-wrap {
-  height: 100vh;
-  min-height: 100%;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13175,7 +13173,7 @@ h5,
 
 .hero-wrap .overlay {
   position: absolute;
-  top: 0;
+  top: 89px;
   left: 0;
   right: 0;
   bottom: 0;
