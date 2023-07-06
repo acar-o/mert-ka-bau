@@ -29,6 +29,11 @@
         "tr": "Bİze ulaşın",
         "en": "Contact us"
     },
+    "contactWellcome":{
+        "de": "Herzlich willkommen auf unserer Kontaktseite! Hier haben Sie die Möglichkeit, uns über ein Kontaktformular, Google Maps, telefonisch oder per E-Mail zu erreichen.",
+        "tr": "İletişim sayfamıza hoş geldiniz! Burada bize iletişim formu, Google Haritalar, telefon veya e-posta aracılığıyla ulaşabilirsiniz.",
+        "en": "Welcome to our contact page! Here, you have the option to reach out to us through a contact form, Google Maps, by phone, or via email."
+    },
     "footerSirketIsim": {
         "de": "MERT-KA BAU GMBH",
         "tr": "MERT-KA İNŞAAT",
