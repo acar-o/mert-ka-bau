@@ -19,15 +19,15 @@
         "tr": "Projeler",
         "en": "Projects"
     },
-    "projectsHeader":{
-        "de": "Projekte",
-        "tr": "Projeler",
-        "en": "Projects"
-    },
     "services":{
         "de": "Dienstleistungen",
         "tr": "Hİzmetler",
         "en": "Services"
+    },
+    "projectsHeader":{
+        "de": "Projekte",
+        "tr": "Projeler",
+        "en": "Projects"
     },
     "bitenPro":{
         "de": "Abgeschlossene Projekte",
