@@ -68,5 +68,10 @@
         "de": "Projekte",
         "tr": "Projeler",
         "en": "Projects"
+    },
+    "copyright": {
+        "de": "Alle Rechte vorbehalten",
+        "tr": "Bütün hakları saklıdır",
+        "en": "All rights reserved"
     }
 }
