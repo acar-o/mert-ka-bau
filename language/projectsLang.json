@@ -24,6 +24,16 @@
         "tr": "Hİzmetler",
         "en": "Services"
     },
+    "bitenPro":{
+        "de": "Abgeschlossene Projekte",
+        "tr": "Biten Projeler",
+        "en": "Completed Projects"
+    },
+    "devamEdenPro":{
+        "de": "Laufende Projekte",
+        "tr": "Devam eden Projeler",
+        "en": "Ongoing Projects"
+    },
     "sorunuzVarmi": {
         "de": "Haben Sie Fragen?",
         "tr": "Sorunuz mı var?",
