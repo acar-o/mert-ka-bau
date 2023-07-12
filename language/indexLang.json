@@ -55,8 +55,8 @@
         "en": "Quality and Reliability"
     },
     "sayfa2Text": {
-        "de": "Da wir der Kundenzufriedenheit große Bedeutung beimessen, ist es unser Ziel, die Erwartungen unserer Kunden durch sorgfältige Arbeit an jedem Projekt zu erfüllen. Mit den Lösungen, die wir in den Bereichen Bau, Renovierung und Desinfektion anbieten, steigern wir den Wert Ihrer Räume.",
-        "tr": "Müşteri memnuniyetine verdiğimiz önemle, her projede özenle çalışarak müşterilerimizin beklentilerini karşılamayı hedefliyoruz. İnşaat, yenileme ve sanitasyon alanlarında sunduğumuz çözümlerle mekanlarınıza değer katıyoruz.",
+        "de": "Unser Unternehmen strebt danach, die Bauanforderungen unserer Kunden in einer breiten Palette von Dienstleistungen zu erfüllen. Wir arbeiten mit professionellen Teams und Expertise, um qualitativ hochwertige Arbeiten zu liefern.",
+        "tr": "Şirketimiz, geniş bir yelpazede hizmetler sunarak müşterilerin inşaat ihtiyaçlarını karşılamayı amaçlamaktadır. Profesyonel ekiplerimiz ve uzmanlığımızla kaliteli işler çıkarıyoruz.",
         "en": "With the importance we attach to customer satisfaction, we aim to meet the expectations of our customers by working diligently on each project. We add value to your spaces with the solutions we offer in the fields of construction, renovation and disinfection."
     },
     "mert-ka": {
@@ -70,44 +70,29 @@
         "en": "Years of experienced"
     },
     "sayfa2Kutu1": {
-        "de": "PLANUNG",
-        "tr": "PLANLAMA",
-        "en": "PLANNING"
+        "de": "Baudienstleistungen",
+        "tr": "İnşaat Hizmetleri",
+        "en": "Construction Services"
     },
     "sayfa2Kutu2": {
-        "de": "VORBEREITUNG",
-        "tr": "HAZIRLIK",
-        "en": "PREPARATION"
+        "de": "Ingenieurdienstleistungen",
+        "tr": "Mühendislik Hizmetleri",
+        "en": "Engineering Services"
     },
     "sayfa2Kutu3": {
-        "de": "BAUEN",
-        "tr": "İNŞAAT",
-        "en": "CONSTRUCTION"
+        "de": "Architekturdienstleistungen",
+        "tr": "Mimarlık Hizmetleri",
+        "en": "Architectural Services"
     },
     "sayfa2Kutu4": {
-        "de": "LIEFERUNG",
-        "tr": "TESLİMAT",
-        "en": "DELIVERY"
+        "de": "Errichtung, Verkauf, Vermietung und Handel mit und Renovierung von Gebäuden",
+        "tr": "Taşınmaz İnşası, Satışı, Kiralaması ve Yenileme İşlemleri",
+        "en": "Real Estate Development, Sales, Rental, and Renovation"
     },
-    "sayfa2Kutu1Text": {
-        "de": "Wir planen das Projekt, indem wir die Bedürfnisse und Erwartungen der Kunden verstehen.",
-        "tr": "Müşteri ihtiyaçlarını ve beklentilerini anlayarak projeyi planlarız",
-        "en": "We plan the project by understanding customer needs and expectations."
-    },
-    "sayfa2Kutu2Text": {
-        "de": "Wir bereiten die Baustelle vor, holen die Genehmigungen ein und beschaffen die Materialien.",
-        "tr": "İnşaat sahasını hazırlarız, izinleri alırız ve malzemeleri temin ederiz.",
-        "en": "We prepare the construction site, obtain the permits and procure the materials."
-    },
-    "sayfa2Kutu3Text": {
-        "de": "Wir erwecken das Projekt zum Leben und schließen den Bau des Gebäudes ab.",
-        "tr": "Projeyi hayata geçirir, yapının inşasını baştan sona gerçekleştiririz",
-        "en": "We bring the project to life and complete the construction of the building."
-    },
-    "sayfa2Kutu4Text": {
-        "de": "Wir nehmen den letzten Schliff vor, schließen die Endarbeiten ab und liefern das Projekt an den Kunden.",
-        "tr": "Son dokunuşları yapar, bitirme işlemlerini tamamlar ve projeyi müşteriye teslim ederiz.",
-        "en": "IWe make the final touches, complete the finishing works and deliver the project to the customer."
+    "sayfa2Kutu5": {
+        "de": "Handel mit Baustoffen und anderen für den Bau erforderlichen Waren",
+        "tr": "Yapı Malzemeleri ve İnşaat için Gerekli Diğer Malzemelerin Satışı",
+        "en": "Trade of Building Materials and Other Necessary Materials for Construction"
     },
     "sayfa3Text": {
         "de": "Für Bau- und Renovierungsarbeiten können Sie sich an uns wenden",
@@ -124,41 +109,7 @@
         "tr": "Randevu Alın",
         "en": "Make An Appointment"
     },
-    "sayfa4Header1": {
-        "de": "Rohbau",
-        "tr": "İnşaat",
-        "en": "Construction"
-    },
-    "sayfa4Header2": {
-        "de": "Renovierung",
-        "tr": "Yenileme",
-        "en": "Renovation"
-    },
-    "sayfa4Header3": {
-        "de": "Sanierung",
-        "tr": "Sanitasyon",
-        "en": "Sanitizing"
-    },
-    "sayfa4Text1": {
-        "de": "Wir bieten mit unserem Expertenteam bei Bauprojekten zuverlässigen und pünktlichen Service gemäß hohen Qualitätsstandards. Wir erfüllen Ihre Baubedürfnisse mit einem professionellen Ansatz und arbeiten daran, Ihre Träume wahr werden zu lassen.",
-        "tr": "İnşaat projelerinde uzman ekibimizle, yüksek kalite standartlarına uygun şekilde, güvenilir ve zamanında hizmet sunarız. İnşaat ihtiyaçlarınızı profesyonel bir yaklaşımla karşılarız ve hayallerinizi gerçeğe dönüştürmek için çalışırız.",
-        "en": "We provide reliable and timely service in accordance with high quality standards with our expert team in construction projects. We meet your construction needs with a professional approach and work to make your dreams come true."
-    },
-    "sayfa4Text2": {
-        "de": "Wir renovieren und modernisieren bestehende Bauwerke professionell und gestalten sie nach Ihren Wünschen. Mit unserem qualitätsorientierten Ansatz bei Sanierungsprojekten bieten wir Ihnen hervorragende Ergebnisse.",
-        "tr": "Mevcut yapıları profesyonel bir yaklaşımla yeniler, modernize eder ve isteklerinizi karşılayacak şekilde tasarlarız. Yenileme projelerinde kalite odaklı yaklaşımımızla size mükemmel sonuçlar sunarız.",
-        "en": "We renovate and modernize existing structures with a professional approach and design them to meet your wishes. We offer you excellent results with our quality-oriented approach in renovation projects."
-    },
-    "sayfa4Text3": {
-        "de": "In Sanierungsprojekten führen wir detaillierte Analysen und Korrekturstudien an bestehenden Strukturen durch. Mit unserem Expertenteam steigern wir die Funktionalität von Gebäuden, optimieren die Energieeffizienz und bieten nachhaltige Lösungen.",
-        "tr": "Sanitasyon projelerinde, mevcut yapılarda detaylı analiz ve düzeltme çalışmaları yaparız. Uzman ekibimizle, yapıların işlevselliğini artırır, enerji verimliliğini optimize eder ve sürdürülebilir çözümler sunarız. ",
-        "en": "In sanitizing projects, we carry out detailed analysis and correction studies on existing structures. With our expert team, we increase the functionality of buildings, optimize energy efficiency and offer sustainable solutions."
-    },
-    "sayfa5Header": {
-        "de": "Diensleistungen",
-        "tr": "Hizmetler",
-        "en": "Services"
-    },
+
     "sayfa6Text1": {
         "de": "Projekte",
         "tr": "proje",
@@ -173,11 +124,6 @@
         "de": "Projekte",
         "tr": "Projeler",
         "en": "Projects"
-    },
-    "sayfa5Header2": {
-        "de": "Was wir tun",
-        "tr": "Ne Yapıyoruz",
-        "en": "What We Do"
     },
     "sayfa7Header1": {
         "de": "Portfolio",

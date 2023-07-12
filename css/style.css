@@ -7815,7 +7815,7 @@ fieldset:disabled .btn {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
-  align-items: end;
+  align-items: center;
 }
 
 .d-inline-flex {
@@ -13551,7 +13551,7 @@ textarea.form-control {
 
 .services-wrap .services .text h2,
 .services-wrap .services .text .h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   font-family: "Poppins", Arial, sans-serif;
 }
@@ -13611,7 +13611,6 @@ textarea.form-control {
 .services .text .h2 {
   font-size: 26px;
   font-weight: 500;
-  margin-bottom: 15px;
 }
 
 .services:hover,
