@@ -6,7 +6,8 @@
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico?v=2">
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Prata&display=swap"
@@ -22,6 +23,13 @@
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
   <style>
+    .mySlides {
+      display: none;
+    }
+    .resim{
+      border-left: 3px solid white;
+      border-right: 3px solid white;
+    }
     @media (max-width: 575.98px) {
       .greeting {
         font-size: 30px !important;
@@ -84,14 +92,20 @@
     </div>
   </nav>
 
-  <section class="hero-wrap" style="background-image: url('images/bina.jpg'); height: 100vh !important;">
-    <div class="overlay"></div>
+  <section class="hero-wrap" style="height: 95vh; position: relative; top: 5vh;display: flex; justify-content: center; background-color: rgb(54,59,66);">
+    <!-- <img src="images/ana_sayfa.jpeg" alt="" srcset="" style="position: absolute;"> -->
+    <div style="display: flex; justify-content: center;">
+      <img class="mySlides resim" src="images/ana_sayfa1.jpeg">
+      <img class="mySlides resim" src="images/ana_sayfa2.jpeg">
+      <img class="mySlides resim" src="images/ana_sayfa3.jpeg">
+      <img class="mySlides resim" src="images/ana_sayfa4.jpeg">
+      <img class="mySlides resim" src="images/ana_sayfa5.jpeg">
+    </div>
+    <!-- <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center text-center">
         <div class="col-lg-9">
           <div class="text" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-            <!-- <span class="subheading">Seit 1982</span> -->
-            <!-- <h1 class="mb-5"><span>Gerne</span> kümmern wir uns um Ihre Projekte.</h1> -->
             <h1 class="mb-5">
               <div class="greeting" id="greeting"></div>
               <div class="greeting" id="greetingIki"></div>
@@ -106,7 +120,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <section class="ftco-section ftco-about-section" id="first-section">
@@ -205,7 +219,7 @@
     </div>
   </section>
 
- 
+
 
   <!-- <section class="ftco-section ftco-services-section">
     <div class="container-xl">
@@ -668,7 +682,8 @@
             </div>
             <hr>
             <p class="mb-0" style="color: rgba(255,255,255,.5); font-size: 13px;">Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> <span id="copyright"></span> <br> Mert-KA Bau GmbH
+              <script>document.write(new Date().getFullYear());</script> <span id="copyright"></span> <br> Mert-KA Bau
+              GmbH
             </p>
           </div>
         </div>
@@ -686,7 +701,22 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    var myIndex = 0;
+    carousel();
 
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 2500); // Change image every 2 seconds
+    }
+  </script>
 </body>
 
 </html>

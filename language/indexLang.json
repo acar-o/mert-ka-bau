@@ -24,31 +24,6 @@
         "tr": "Hİzmetler",
         "en": "Services"
     },
-    "greeting": {
-        "de": "Professionelles Team",
-        "tr": "Profesyonel Ekİp",
-        "en": "Professional Team"
-    },
-    "greetingIki": {
-        "de": "qualitativ hochwertiger Bau",
-        "tr": "Kalİtelİ İnşaat",
-        "en": "Quality Construction"
-    },
-    "greetingUc": {
-        "de": "pünktliche Lieferung",
-        "tr": "Zamanında Teslİmat",
-        "en": "On-time Delivery"
-    },
-    "indexButton1": {
-        "de": "Kontaktiere uns",
-        "tr": "Bİze Ulaşın",
-        "en": "Contact us"
-    },
-    "indexButton2": {
-        "de": "Entdecke mehr",
-        "tr": "Daha fazla keşfet",
-        "en": "Discover more"
-    },
     "sayfa2Baslik": {
         "de": "Qualität und Zuverlässigkeit",
         "tr": "Kalite ve Güvenilirlik",
