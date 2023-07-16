@@ -29,11 +29,35 @@
     .resim{
       border-left: 3px solid white;
       border-right: 3px solid white;
+      width: 60vw;
+      height: 100vh;
+      background-size: cover;
+    }
+    .contain{
+      position: relative; 
+      display: flex; 
+      justify-content: center; 
+      background-color: rgb(54,59,66);
+      width: 100%;
     }
     @media (max-width: 575.98px) {
       .greeting {
         font-size: 30px !important;
       }
+      .resim{
+        background-size: cover;
+        height: 25vh;
+        width: 100vw;
+        border: none;
+    }
+    .contain{
+      height: 100vh; 
+      position: relative; 
+      top: 89px;
+      display: flex; 
+      justify-content: center; 
+      background-color: rgb(54,59,66);
+    }
     }
   </style>
 </head>
@@ -92,15 +116,27 @@
     </div>
   </nav>
 
-  <section class="hero-wrap" style="height: 95vh; position: relative; top: 5vh;display: flex; justify-content: center; background-color: rgb(54,59,66);">
-    <!-- <img src="images/ana_sayfa.jpeg" alt="" srcset="" style="position: absolute;"> -->
-    <div style="display: flex; justify-content: center;">
-      <img class="mySlides resim" src="images/ana_sayfa1.jpeg">
-      <img class="mySlides resim" src="images/ana_sayfa2.jpeg">
-      <img class="mySlides resim" src="images/ana_sayfa3.jpeg">
-      <img class="mySlides resim" src="images/ana_sayfa4.jpeg">
-      <img class="mySlides resim" src="images/ana_sayfa5.jpeg">
-    </div>
+  <section class="hero-wrap contain">
+
+    
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa1.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa2.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa3.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa4.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa5.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa6.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa7.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa8.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa9.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa10.jpeg);"></div>
+      
+      
+      <!-- <img src="images/ana_sayfa1.jpeg;">
+      <img src="images/ana_sayfa2.jpeg;">
+      <img src="images/ana_sayfa3.jpeg;">
+      <img src="images/ana_sayfa4.jpeg;">
+      <img src="images/ana_sayfa5.jpeg;"> -->
+      
     <!-- <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-center text-center">
