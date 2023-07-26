@@ -42,27 +42,48 @@
       background-color: rgb(54, 59, 66);
       width: 100%;
     }
-.kutu{
-  font-size: 20px;
-  font-weight: 600;
-}
+
+    .kutu {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .largeScreenSlider {
+      display: block;
+    }
+
+    .mobileSlider {
+      display: none;
+    }
+
     @media (max-width: 575.98px) {
+
+
+      .largeScreenSlider {
+        display: none;
+      }
+
+      .mobileSlider {
+        display: block;
+      }
+
       .greeting {
         font-size: 30px !important;
       }
 
-      .kutu{
-  font-size: 16px;
-  font-weight: 600;
-}
+      .kutu {
+        font-size: 16px;
+        font-weight: 600;
+      }
+
       .resim {
         background-size: cover;
         height: 25vh;
         width: 100vw;
         border: none;
         margin: 5vh 0;
-      border-top: 3px solid white;
-      border-bottom: 3px solid white;
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
       }
 
       .contain {
@@ -73,13 +94,16 @@
         justify-content: center;
         background-color: rgb(54, 59, 66);
       }
-      .tec{
+
+      .tec {
         display: none !important;
       }
-      .abc{
+
+      .abc {
         display: none;
         word-wrap: break-word;
       }
+
       #sayfa2Baslik {
         font-size: 26px !important;
       }
@@ -143,19 +167,27 @@
 
   <section class="hero-wrap contain">
     <div>
-
-      <div class="mySlides resim" style="background-image: url(images/ana_sayfa1.jpeg);"></div>
-      <div class="mySlides resim" style="background-image: url(images/ana_sayfa2.jpeg);"></div>
-      <div class="mySlides resim" style="background-image: url(images/ana_sayfa3.jpeg);"></div>
-      <div class="mySlides resim" style="background-image: url(images/ana_sayfa4.jpeg);"></div>
-      <div class="mySlides resim" style="background-image: url(images/ana_sayfa5.jpeg);"></div>
-      <div class="mySlides resim" style="background-image: url(images/ana_sayfa6.jpeg);"></div>
-      <div class="mySlides resim" style="background-image: url(images/ana_sayfa7.jpeg);"></div>
-      <div class="mySlides resim" style="background-image: url(images/ana_sayfa8.jpeg);"></div>
-      <div class="mySlides resim" style="background-image: url(images/ana_sayfa9.jpeg);"></div>
-      <div class="mySlides resim" style="background-image: url(images/ana_sayfa10.jpeg);"></div>
+      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa1.jpeg);"></div>
+      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa2.jpeg);"></div>
+      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa3.jpeg);"></div>
+      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa4.jpeg);"></div>
+      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa5.jpeg);"></div>
+      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa6.jpeg);"></div>
+      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa7.jpeg);"></div>
+      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa8.jpeg);"></div>
+      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa9.jpeg);"></div>
+      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa10.jpeg);"></div>
+      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa1.jpeg);"></div>
+      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa2.jpeg);"></div>
+      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa3.jpeg);"></div>
+      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa4.jpeg);"></div>
+      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa5.jpeg);"></div>
+      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa6.jpeg);"></div>
+      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa7.jpeg);"></div>
+      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa8.jpeg);"></div>
+      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa9.jpeg);"></div>
+      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa10.jpeg);"></div>
     </div>
-    
   </section>
 
   <section class="ftco-section ftco-about-section" id="first-section">
@@ -183,7 +215,8 @@
               <div class="col-lg-12 d-flex align-items-stretch services-wrap">
                 <div class="services">
                   <div class="d-flex">
-                    <div class="icon"><span class="flaticon-floor-plan" style="@media (max-width: 767.98px){font-size: 40px !important;}"></span></div>
+                    <div class="icon"><span class="flaticon-floor-plan"
+                        style="@media (max-width: 767.98px){font-size: 40px !important;}"></span></div>
                     <div class="text kutu">
                       <p id="sayfa2Kutu1"></p>
                     </div>
@@ -196,7 +229,8 @@
               <div class="col-lg-12 d-flex align-items-stretch services-wrap">
                 <div class="services">
                   <div class="d-flex">
-                    <div class="icon"><span class="flaticon-consult" style="@media (max-width: 767.98px){font-size: 40px !important;}"></span></div>
+                    <div class="icon"><span class="flaticon-consult"
+                        style="@media (max-width: 767.98px){font-size: 40px !important;}"></span></div>
                     <div class="text kutu">
                       <p id="sayfa2Kutu2"></p>
                     </div>
@@ -209,7 +243,8 @@
               <div class="col-lg-12 d-flex align-items-stretch services-wrap">
                 <div class="services">
                   <div class="d-flex">
-                    <div class="icon"><span class="flaticon-construction" style="@media (max-width: 767.98px){font-size: 40px !important;}"></span></div>
+                    <div class="icon"><span class="flaticon-construction"
+                        style="@media (max-width: 767.98px){font-size: 40px !important;}"></span></div>
                     <div class="text kutu">
                       <p id="sayfa2Kutu3"></p>
                     </div>
@@ -224,7 +259,8 @@
               <div class="col-lg-12 d-flex align-items-stretch services-wrap">
                 <div class="services">
                   <div class="d-flex">
-                    <div class="icon"><span class="flaticon-building" style="@media (max-width: 767.98px){font-size: 40px !important;}"></span></div>
+                    <div class="icon"><span class="flaticon-building"
+                        style="@media (max-width: 767.98px){font-size: 40px !important;}"></span></div>
                     <div class="text kutu">
                       <p id="sayfa2Kutu4"></p>
                     </div>
@@ -237,7 +273,8 @@
               <div class="col-lg-12 d-flex align-items-stretch services-wrap">
                 <div class="services">
                   <div class="d-flex">
-                    <div class="icon"><span class="flaticon-consult" style="@media (max-width: 767.98px){font-size: 40px !important;}"></span></div>
+                    <div class="icon"><span class="flaticon-consult"
+                        style="@media (max-width: 767.98px){font-size: 40px !important;}"></span></div>
                     <div class="text kutu">
                       <p id="sayfa2Kutu5"></p>
                     </div>
@@ -253,51 +290,6 @@
       </div>
     </div>
   </section>
-
-
-
-  <!-- <section class="ftco-section ftco-services-section">
-    <div class="container-xl">
-      <div class="row justify-content-center">
-        <div class="col-md-8 heading-section text-center mb-5" data-aos="fade-up">
-          <span class="subheading" id="sayfa5Header2"></span>
-          <h2 class="mb-4" id="sayfa5Header"></h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="img w-100" style="background: url(images/services.jpg);"></div>
-        </div>
-        <div class="col-md-6">
-
-          <div class="services d-flex active" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-            <div class="icon"><span class="flaticon-construction"></span></div>
-            <div class="text">
-              <h2 id="sayfa4Header1"></h2>
-              <p class="mb-4" id="sayfa4Text1"></p>
-              <p><a href="services.html" class="btn-custom" id="learnMore1"></a></p>
-            </div>
-          </div>
-          <div class="services d-flex active-2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <div class="icon"><span class="flaticon-house-1"></span></div>
-            <div class="text">
-              <h2 id="sayfa4Header2"></h2>
-              <p class="mb-4" id="sayfa4Text2"></p>
-              <p><a href="services.html" class="btn-custom" id="learnMore2"></a></p>
-            </div>
-          </div>
-          <div class="services d-flex" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-            <div class="icon"><span class="flaticon-engineer"></span></div>
-            <div class="text">
-              <h2 id="sayfa4Header3"></h2>
-              <p class="mb-4" id="sayfa4Text3"></p>
-              <p><a href="services.html" class="btn-custom" id="learnMore3"></a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <section class="ftco-section-counter img" style="background-image: url(images/bg_2.jpg);">
     <div class="overlay"></div>
@@ -342,45 +334,45 @@
       <div class="row g-0">
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div class="gallery-wrap img d-flex align-items-end justify-content-center"
-            style="background-image: url(images/pro_1.jpeg);">
-            <a href="images/pro_1.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
+            style="background-image: url(images/pro1/pro_1.jpeg);">
+            <a href="images/pro1/pro_1.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
                 class="fa fa-search"></span></a>
             <div class="desc w-100 px-4">
               <!-- <span>Hotel</span> -->
-              <h2><a href="project.html">Deniz manzaralı yalı dairelerimiz <br>Karşıyaka/İZMİR</a></h2>
+              <h3><a href="project.html"><span id="slideHeader1"></span><br>Karşıyaka/İZMİR</a></h3>
             </div>
           </div>
         </div>
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
           <div class="gallery-wrap img d-flex align-items-end justify-content-center"
-            style="background-image: url(images/pro_2.jpeg);">
-            <a href="images/pro_2.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
+            style="background-image: url(images/pro2/pro_2.jpeg);">
+            <a href="images/pro2/pro_2.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
                 class="fa fa-search"></span></a>
             <div class="desc w-100 px-4">
               <!-- <span>Building</span> -->
-              <h2><a href="project.html">Deniz manzaralı villa projemiz <br>Yeni Foça/İZMİR</a></h2>
+              <h3><a href="project.html"><span id="slideHeader2"></span><br>Yeni Foça/İZMİR</a></h3>
             </div>
           </div>
         </div>
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div class="gallery-wrap img d-flex align-items-end justify-content-center"
-            style="background-image: url(images/pro_3.jpeg);">
-            <a href="images/pro_3.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
+            style="background-image: url(images/pro3/pro_3.jpeg);">
+            <a href="images/pro3/pro_3.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
                 class="fa fa-search"></span></a>
             <div class="desc w-100 px-4">
               <!-- <span>Hotel</span> -->
-              <h2><a href="project.html">4 yıldızlı otel projemiz<br>Menemen/İZMİR</a></h2>
+              <h3><a href="project.html"><span id="slideHeader3"></span><br>Menemen/İZMİR</a></h3>
             </div>
           </div>
         </div>
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div class="gallery-wrap img d-flex align-items-end justify-content-center"
-            style="background-image: url(images/pro_4.jpeg);">
-            <a href="images/pro_4.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
+            style="background-image: url(images/pro4/pro_4.jpeg);">
+            <a href="images/pro4/pro_4.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
                 class="fa fa-search"></span></a>
             <div class="desc w-100 px-4">
               <!-- <span>Building</span> -->
-              <h2><a href="project.html">Yatay mimari konut ve iş yeri projemiz<br>Menemen/İZMİR</a></h2>
+              <h3><a href="project.html"><span id="slideHeader4"></span><br>Menemen/İZMİR</a></h3>
             </div>
           </div>
         </div>

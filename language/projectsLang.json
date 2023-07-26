@@ -83,5 +83,25 @@
         "de": "Kontakt",
         "tr": "İletİşİm",
         "en": "Contact"
+    },
+    "slideHeader1": {
+        "de": "Unsere Villenapartments mit Meerblick",
+        "tr": "Deniz manzaralı yalı dairelerimiz",
+        "en": "Our mansion apartments with sea view"
+    },
+    "slideHeader2": {
+        "de": "Unser Villenprojekt mit Meerblick",
+        "tr": "Deniz manzaralı villa projemiz",
+        "en": "Our sea view villa project"
+    },
+    "slideHeader3": {
+        "de": "Unser 4-Sterne-Hotelprojekt",
+        "tr": "4 yıldızlı otel projemiz",
+        "en": "Our 4 star hotel project"
+    },
+    "slideHeader4": {
+        "de": "Unser horizontales architektonisches Wohn- und Arbeitsplatzprojekt",
+        "tr": "Yatay mimari konut ve iş yeri projemiz",
+        "en": "Our horizontal architectural residence and workplace project"
     }
 }
