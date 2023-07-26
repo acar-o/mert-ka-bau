@@ -25,7 +25,23 @@
       text-transform: uppercase;
     }
 
+    .slideshow-container {
+      display: block;
+    }
+
+    swiper-container {
+      display: none;
+    }
+
     @media (max-width: 575.98px) {
+      .slideshow-container {
+        display: none;
+      }
+
+      swiper-container {
+        display: block;
+      }
+
       #projectsHeader {
         font-size: 10vw;
         text-transform: uppercase;
@@ -76,6 +92,7 @@
       right: 0;
       border-radius: 3px 0 0 3px;
     }
+
     .prev {
       left: 0;
       border-radius: 3px 0 0 3px;
@@ -166,31 +183,42 @@
       <div class="row g-0" style="text-align: center;">
         <h1 id="bitenPro"></h1>
         <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-          <p class="slideHeader">Hotel - Aliağa / İzmir</p>
+          <p class="slideHeader">Deniz manzaralı yalı dairelerimiz <br>Karşıyaka/İZMİR</p>
           <div class="slideshow-container" style="margin: 1px;">
-            
             <div class="mySlides1">
-              <img src="images/pro_1.jpg" style="width:100%">
+              <img src="images/pro_1.jpeg" style="width:100%">
             </div>
             <div class="mySlides1">
-              <img src="images/pro1/AliagaIzmir2.jpg" style="width:100%;background-size: contain;">
-            </div>
-
-            <div class="mySlides1">
-              <img src="images/pro1/AliagaIzmir3.jpg" style="width:100%">
+              <img src="images/pro1/pro_1_1.jpeg" style="width:100%;background-size: contain;">
             </div>
 
             <div class="mySlides1">
-              <img src="images/pro1/AliagaIzmir4.jpg" style="width:100%">
+              <img src="images/pro1/pro_1_3.jpeg" style="width:100%">
             </div>
-            
+
             <div class="mySlides1">
-              <img src="images/pro1/AliagaIzmir5.jpg" style="width:100%">
+              <img src="images/pro1/pro_1_4.jpeg" style="width:100%">
             </div>
 
             <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
             <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
           </div>
+
+          <swiper-container>
+            <swiper-slide>
+              <img src="images/pro_1.jpeg" style="width:100%">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/pro1/pro_1_1.jpeg" style="width:100%">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/pro1/pro_1_3.jpeg" style="width:100%">
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/pro1/pro_1_4.jpeg" style="width:100%">
+            </swiper-slide>
+          </swiper-container>
+
         </div>
         <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
           <p class="slideHeader">Building - Ulukent / İzmir</p>
@@ -280,19 +308,19 @@
             <div class="mySlides5">
               <img src="images/pro5/cigliizmir1.jpg" style="width:100%">
             </div>
-            
+
             <div class="mySlides5">
               <img src="images/pro5/cigliizmir2.jpg" style="width:100%">
             </div>
-            
+
             <div class="mySlides5">
               <img src="images/pro5/cigliizmir3.JPG" style="width:100%">
             </div>
-            
+
             <div class="mySlides5">
               <img src="images/pro5/cigliizmir4.JPG" style="width:100%">
             </div>
-            
+
             <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
             <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
           </div>
@@ -303,7 +331,7 @@
             <div class="mySlides6">
               <img src="images/pro6/PHOTO-2023-06-06-12-53-42 (1).jpg" style="width:100%">
             </div>
-            
+
             <div class="mySlides6">
               <img src="images/pro6/PHOTO-2023-06-06-12-53-42 (2).jpg" style="width:100%">
             </div>
@@ -322,7 +350,7 @@
 
             <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
             <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
-          </div> 
+          </div>
         </div>
         <h1 id="devamEdenPro" style="margin-top: 40px;"></h1>
         <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
@@ -348,7 +376,7 @@
 
             <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
             <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
-          </div> 
+          </div>
         </div>
         <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
           <p class="slideHeader">Building - Egekent / İzmir</p>
@@ -375,7 +403,7 @@
 
             <a class="prev" onclick="plusSlides(-1, 7)">&#10094;</a>
             <a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
-          </div> 
+          </div>
         </div>
       </div>
     </div>
@@ -423,13 +451,14 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <div style="display: inline;">
-            <a href="" target="_blank" rel="noopener noreferrer">Impressium</a> &nbsp&nbsp
-            <a href="" target="_blank" rel="noopener noreferrer">AGB</a> &nbsp&nbsp
-            <a href="" target="_blank" rel="noopener noreferrer">Datenschutz</a>
-          </div>
-          <hr>
+              <a href="" target="_blank" rel="noopener noreferrer">Impressium</a> &nbsp&nbsp
+              <a href="" target="_blank" rel="noopener noreferrer">AGB</a> &nbsp&nbsp
+              <a href="" target="_blank" rel="noopener noreferrer">Datenschutz</a>
+            </div>
+            <hr>
             <p class="mb-0" style="color: rgba(255,255,255,.5); font-size: 13px;">Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> <span id="copyright"></span> <br> Mert-KA Bau GmbH
+              <script>document.write(new Date().getFullYear());</script> <span id="copyright"></span> <br> Mert-KA Bau
+              GmbH
             </p>
           </div>
         </div>
@@ -437,6 +466,7 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/tiny-slider.js"></script>
   <script src="js/glightbox.min.js"></script>
