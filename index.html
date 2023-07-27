@@ -33,6 +33,7 @@
       width: 60vw;
       height: 100vh;
       background-size: cover;
+      margin: 0 20vw;
     }
 
     .contain {
@@ -48,22 +49,22 @@
       font-weight: 600;
     }
 
-    .largeScreenSlider {
+    #largeScreenSlider {
       display: block;
     }
 
-    .mobileSlider {
+    #mobileSlider {
       display: none;
     }
 
     @media (max-width: 575.98px) {
 
 
-      .largeScreenSlider {
+      #largeScreenSlider {
         display: none;
       }
 
-      .mobileSlider {
+      #mobileSlider {
         display: block;
       }
 
@@ -77,11 +78,13 @@
       }
 
       .resim {
+        position: relative;
+        top: 5vh;
+        margin: 5vh 0;
         background-size: cover;
         height: 25vh;
         width: 100vw;
         border: none;
-        margin: 5vh 0;
         border-top: 3px solid white;
         border-bottom: 3px solid white;
       }
@@ -165,28 +168,34 @@
     </div>
   </nav>
 
-  <section class="hero-wrap contain">
+  <section class="hero-wrap contain" id="largeScreenSlider">
     <div>
-      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa1.jpeg);"></div>
-      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa2.jpeg);"></div>
-      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa3.jpeg);"></div>
-      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa4.jpeg);"></div>
-      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa5.jpeg);"></div>
-      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa6.jpeg);"></div>
-      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa7.jpeg);"></div>
-      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa8.jpeg);"></div>
-      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa9.jpeg);"></div>
-      <div class="mySlides resim largeScreenSlider" style="background-image: url(images/ana_sayfa10.jpeg);"></div>
-      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa1.jpeg);"></div>
-      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa2.jpeg);"></div>
-      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa3.jpeg);"></div>
-      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa4.jpeg);"></div>
-      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa5.jpeg);"></div>
-      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa6.jpeg);"></div>
-      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa7.jpeg);"></div>
-      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa8.jpeg);"></div>
-      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa9.jpeg);"></div>
-      <div class="mySlides resim mobileSlider" style="background-image: url(images/mobil/ana_sayfa10.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa1.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa2.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa3.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa4.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa5.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa6.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa7.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa8.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa9.jpeg);"></div>
+      <div class="mySlides resim" style="background-image: url(images/ana_sayfa10.jpeg);"></div>
+    </div>
+  </section>
+
+  <section class="hero-wrap contain" id="mobileSlider">
+    <div>
+
+      <div class="mySlides2 resim" style="background-image: url(images/mobil/ana_sayfa1.jpeg);"></div>
+      <div class="mySlides2 resim" style="background-image: url(images/mobil/ana_sayfa2.jpeg);"></div>
+      <div class="mySlides2 resim" style="background-image: url(images/mobil/ana_sayfa3.jpeg);"></div>
+      <div class="mySlides2 resim" style="background-image: url(images/mobil/ana_sayfa4.jpeg);"></div>
+      <div class="mySlides2 resim" style="background-image: url(images/mobil/ana_sayfa5.jpeg);"></div>
+      <div class="mySlides2 resim" style="background-image: url(images/mobil/ana_sayfa6.jpeg);"></div>
+      <div class="mySlides2 resim" style="background-image: url(images/mobil/ana_sayfa7.jpeg);"></div>
+      <div class="mySlides2 resim" style="background-image: url(images/mobil/ana_sayfa8.jpeg);"></div>
+      <div class="mySlides2 resim" style="background-image: url(images/mobil/ana_sayfa9.jpeg);"></div>
+      <div class="mySlides2 resim" style="background-image: url(images/mobil/ana_sayfa10.jpeg);"></div>
     </div>
   </section>
 
@@ -335,7 +344,8 @@
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div class="gallery-wrap img d-flex align-items-end justify-content-center"
             style="background-image: url(images/pro1/pro_1.jpeg);">
-            <a href="images/pro1/pro_1.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
+            <a href="images/pro1/pro_1.jpeg"
+              class="icon d-flex align-items-center justify-content-center glightbox"><span
                 class="fa fa-search"></span></a>
             <div class="desc w-100 px-4">
               <!-- <span>Hotel</span> -->
@@ -346,7 +356,8 @@
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
           <div class="gallery-wrap img d-flex align-items-end justify-content-center"
             style="background-image: url(images/pro2/pro_2.jpeg);">
-            <a href="images/pro2/pro_2.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
+            <a href="images/pro2/pro_2.jpeg"
+              class="icon d-flex align-items-center justify-content-center glightbox"><span
                 class="fa fa-search"></span></a>
             <div class="desc w-100 px-4">
               <!-- <span>Building</span> -->
@@ -357,7 +368,8 @@
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div class="gallery-wrap img d-flex align-items-end justify-content-center"
             style="background-image: url(images/pro3/pro_3.jpeg);">
-            <a href="images/pro3/pro_3.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
+            <a href="images/pro3/pro_3.jpeg"
+              class="icon d-flex align-items-center justify-content-center glightbox"><span
                 class="fa fa-search"></span></a>
             <div class="desc w-100 px-4">
               <!-- <span>Hotel</span> -->
@@ -367,8 +379,9 @@
         </div>
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
           <div class="gallery-wrap img d-flex align-items-end justify-content-center"
-            style="background-image: url(images/pro4/pro_4.jpeg);">
-            <a href="images/pro4/pro_4.jpeg" class="icon d-flex align-items-center justify-content-center glightbox"><span
+            style="background-image: url(images/pro4/pro_4.jpg);">
+            <a href="images/pro4/pro_4.jpg"
+              class="icon d-flex align-items-center justify-content-center glightbox"><span
                 class="fa fa-search"></span></a>
             <div class="desc w-100 px-4">
               <!-- <span>Building</span> -->
@@ -448,9 +461,7 @@
                       <!-- <span class="position">Marketing Manager</span> -->
                     </div>
                   </div>
-                  <p class="mb-4 msg">"İnşaat şirketiniz, projemizi zamanında tamamlayarak yüksek kalite standartlarına
-                    uygun bir iş çıkardı. Profesyonel ekibinizin titiz çalışması ve güvenilir hizmetinizden dolayı çok
-                    memnun kaldık."</p>
+                  <p class="mb-4 msg">"Ihr Bauunternehmen hat unser Projekt termingerecht abgeschlossen und eine Arbeit geleistet, die den hohen Qualitätsstandards entsprach. Wir sind mit der sorgfältigen Arbeit Ihres professionellen Teams und Ihrem zuverlässigen Service sehr zufrieden. Vielen Dank an das Mert-Ka-Bauteam."</p>
                 </div>
               </div>
             </div>
@@ -486,9 +497,7 @@
                       <!-- <span class="position">Marketing Manager</span> -->
                     </div>
                   </div>
-                  <p class="mb-4 msg">"Şirketinizin sağladığı hizmetten son derece memnun kaldık. Yüksek kalite
-                    standartlarına ve zamanında teslimata verdiğiniz önem, projemizin başarılı bir şekilde
-                    tamamlanmasını sağladı. Teşekkürler!"</p>
+                  <p class="mb-4 msg">"Wir sind mit dem Service Ihres Unternehmens äußerst zufrieden. Ihr Wert auf hohe Qualitätsstandards und eine pünktliche Lieferung stellten den erfolgreichen Abschluss unseres Projekts sicher. Danke!"</p>
                 </div>
               </div>
             </div>
@@ -497,128 +506,7 @@
       </div>
     </div>
   </section>
-  <!-- 
-  <section class="ftco-appointment img" style="background-image: url(images/bg_2.jpg)">
-    <div class="overlay"></div>
-    <div class="container-xl">
-      <div class="row">
-        <div class="col-lg-6 d-flex align-items-center order-lg-last ps-lg-5 py-5" data-aos="fade-up"
-          data-aos-delay="100">
-          <div class="heading-section">
-            <span class="subheading">Frequently Ask Question</span>
-            <h2 class="mb-3">You Want To Ask Something From Us?</h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
-              paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-
-            <div class="row">
-              <div class="col-md-12">
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        What are the problems in construction?
-                      </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        <strong>This is the first item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. It's also worth
-                        noting that just about any HTML can go within the <code>.accordion-body</code>, though the
-                        transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        What is best practice in construction?
-                      </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                      data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        It is hidden by default, until the collapse plugin adds the appropriate classes that we use to
-                        style each element. It's also worth noting that just about any HTML can go within the
-                        <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        What is best practice in construction?
-                      </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                      data-bs-parent="#accordionExample">
-                      <div class="accordion-body">
-                        It is hidden by default, until the collapse plugin adds the appropriate classes that we use to
-                        style each element. It's also worth noting that just about any HTML can go within the
-                        <code>.accordion-body</code>, though the transition does limit overflow.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 d-flex align-items-center align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-          <form action="#" class="appointment aside-stretch">
-            <span class="subheading">Drop A Message</span>
-            <h2 class="mb-4 appointment-head">Request A Quote</h2>
-            <div class="row">
-              <div class="col-md-12 col-lg-6">
-                <div class="form-group">
-                  <label for="name">Your Full Name</label>
-                  <input type="text" class="form-control" placeholder="Your Full Name">
-                </div>
-              </div>
-              <div class="col-md-12 col-lg-6">
-                <div class="form-group">
-                  <label for="email">Email Address</label>
-                  <input type="text" class="form-control" placeholder="Email">
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="subject">Select Subject</label>
-                  <div class="form-field">
-                    <div class="select-wrap">
-                      <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">Construction Services</option>
-                        <option value="">Infrastructure Services</option>
-                        <option value="">Architecture Services</option>
-                        <option value="">Budget Planning</option>
-                        <option value="">Interior &amp; Exterior Design</option>
-                        <option value="">Project Planning</option>
-                        <option value="">Others</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <label for="name">Message</label>
-                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <input type="submit" value="Send message" class="btn btn-primary py-3 px-4 rounded">
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
+  
   <footer class="ftco-footer">
     <div class="container-xl">
       <div class="row mb-5 pb-5 justify-content-between">
@@ -741,7 +629,22 @@
       myIndex++;
       if (myIndex > x.length) { myIndex = 1 }
       x[myIndex - 1].style.display = "block";
-      setTimeout(carousel, 2500); // Change image every 2 seconds
+      setTimeout(carousel, 2500); 
+    }
+
+    var myIndex2 = 0;
+    carousel2();
+
+    function carousel2() {
+      var i;
+      var x = document.getElementsByClassName("mySlides2");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex2++;
+      if (myIndex2 > x.length) { myIndex2 = 1 }
+      x[myIndex2 - 1].style.display = "block";
+      setTimeout(carousel2, 2500); 
     }
   </script>
 </body>
