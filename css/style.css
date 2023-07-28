@@ -13167,9 +13167,10 @@ h5,
 .hero-wrap {
   position: relative;
   background-size: cover;
+  -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   z-index: 0;
 }
 
@@ -13188,7 +13189,7 @@ h5,
   min-height: auto;
   height: 500px;
   background-position: top center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .hero-wrap.hero-wrap-2 .overlay {

@@ -108,46 +108,40 @@
             <div class="col-md-12 mb-4">
               <div class="mt-5 mt-md-0">
                 <h4 class="mb-2" id="contactWellcome" style="text-align: center;"></h4>
-                <!-- <br><br>
-                <p class="mb-4" id="way1" style="color: black;"></p>
-                <p class="mb-4" id="way2" style="color: black;"></p>
-                <p class="mb-4" id="way3" style="color: black;"></p>
-                <p class="mb-4" id="way4" style="color: black;"></p> -->
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="row g-md-0 block-9">
         <div class="col-md-6 order-md-last d-flex">
-          <form action="#" class="bg-white p-5 contact-form">
+          <form action="contact.php" class="bg-white p-5 contact-form" method="post">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" placeholder="Your Name" name="name">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Email">
+              <input type="text" class="form-control" placeholder="Your Email" name="email">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" class="form-control" placeholder="Subject" name="subject">
             </div>
             <div class="form-group">
-              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              <input type="submit" name="submit" value="Send Message" class="btn btn-primary py-3 px-5">
             </div>
           </form>
         </div>
         <div class="col-md-6 d-flex">
-          <iframe width="" height="auto" style="position: relative; width: 100%; height: 100%;" 
+          <iframe width="" height="auto" style="position: relative; width: 100%; height: 100%;"
             src="https://maps.google.com/maps?q=Vogelsanger%20Weg%2091%2040470%20D%C3%BCsseldorf&t=&z=13&ie=UTF8&iwloc=&output=embed"
             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
       </div>
     </div>
   </section>
-
-
 
   <footer class="ftco-footer">
     <div class="container-xl">
@@ -191,13 +185,14 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <div style="display: inline;">
-            <a href="" target="_blank" rel="noopener noreferrer">Impressium</a> &nbsp&nbsp
-            <a href="" target="_blank" rel="noopener noreferrer">AGB</a> &nbsp&nbsp
-            <a href="" target="_blank" rel="noopener noreferrer">Datenschutz</a>
-          </div>
-          <hr>
+              <a href="" target="_blank" rel="noopener noreferrer">Impressium</a> &nbsp&nbsp
+              <a href="" target="_blank" rel="noopener noreferrer">AGB</a> &nbsp&nbsp
+              <a href="" target="_blank" rel="noopener noreferrer">Datenschutz</a>
+            </div>
+            <hr>
             <p class="mb-0" style="color: rgba(255,255,255,.5); font-size: 13px;">Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> <span id="copyright"></span> <br> Mert-KA Bau GmbH
+              <script>document.write(new Date().getFullYear());</script> <span id="copyright"></span> <br> Mert-KA Bau
+              GmbH
             </p>
           </div>
         </div>
