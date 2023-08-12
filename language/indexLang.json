@@ -24,11 +24,6 @@
         "tr": "Hİzmetler",
         "en": "Services"
     },
-    "sayfa2Baslik": {
-        "de": "Qualität und Zuverlässigkeit",
-        "tr": "Kalite ve Güvenilirlik",
-        "en": "Quality and Reliability"
-    },
     "basyazi": {
         "de": "MERT-KA BAU GMBH",
         "tr": "MERT-KA İNŞAAT",
@@ -48,6 +43,11 @@
         "de": "ARCHITEKTUR",
         "tr": "MİMARİ",
         "en": "ARCHITECTURE"
+    },
+    "sayfa2Baslik": {
+        "de": "Qualität und Zuverlässigkeit",
+        "tr": "Kalite ve Güvenilirlik",
+        "en": "Quality and Reliability"
     },
     "sayfa2Text": {
         "de": "Unser Unternehmen strebt danach, die Bauanforderungen unserer Kunden in einer breiten Palette von Dienstleistungen zu erfüllen. Wir arbeiten mit professionellen Teams und Expertise, um qualitativ hochwertige Arbeiten zu liefern.",
