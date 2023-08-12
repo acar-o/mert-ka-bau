@@ -1,0 +1,77 @@
+{
+    "home":{
+        "de": "Startseite",
+        "tr": "Anasayfa",
+        "en": "home"
+    },
+    "about":{
+        "de": "Über Uns",
+        "tr": "Hakkimizda",
+        "en": "About"
+    },
+    "contact": {
+        "de": "Kontakt",
+        "tr": "İletİşİm",
+        "en": "contact"
+    },
+    "projects":{
+        "de": "Projekte",
+        "tr": "Projeler",
+        "en": "Projects"
+    },
+    "services":{
+        "de": "Dienstleistungen",
+        "tr": "Hİzmetler",
+        "en": "Services"
+    },
+    "footerSirketIsim": {
+        "de": "MERT-KA BAU GMBH",
+        "tr": "MERT-KA İNŞAAT",
+        "en": "MERT-KA CONSTRUCTION"
+    },
+    "footerMetin": {
+        "de": "Wir bieten zuverlässige Bauleistungen an, erfüllen Kundenanforderungen mit Experten aus den Bereichen Ingenieurwesen und Architektur, bearbeiten Projekte erfolgreich und kümmern uns auch um Gebäudesanierungen, Verkauf, Vermietung und Handel, während wir ihre Bedürfnisse mit Baustoffen und anderen Produkten befriedigen.",
+        "tr": "Güvenilir inşaat hizmetleri, uzman mühendisler ve mimarlarla başarılı projelerin yanı sıra bina yenileme, satışı, kiralama ve ticareti alanlarında müşteri beklentilerini karşılıyoruz, aynı zamanda yapı malzemeleri ve diğer ürünlerle ihtiyaçları karşılıyoruz.",
+        "en": "We provide reliable construction services, meeting customer expectations with expert engineers and architects, successfully handling projects as well as building renovation, sales, leasing, and trade, while also catering to their needs with construction materials and other products."
+    },
+    "footerLinks": {
+        "de": "Links",
+        "tr": "Bağlantılar",
+        "en": "Links"
+    },
+    "footerLinks1": {
+        "de": "Startseite",
+        "tr": "Anasayfa",
+        "en": "home"
+    },
+    "footerLinks11": {
+        "de": "Über Uns",
+        "tr": "Hakkimizda",
+        "en": "About"
+    },
+    "footerLinks2": {
+        "de": "Dienstleistungen",
+        "tr": "Hİzmetler",
+        "en": "Services"
+    },
+    "footerLinks3": {
+        "de": "Projekte",
+        "tr": "Projeler",
+        "en": "Projects"
+    },
+    "footerLinks4": {
+        "de": "Kontakt",
+        "tr": "İletİşİm",
+        "en": "Contact"
+    },
+    "sorunuzVarmi": {
+        "de": "Haben Sie Fragen?",
+        "tr": "Sorunuz mı var?",
+        "en": "Have a Questions?"
+    },
+    "copyright": {
+        "de": "Alle Rechte vorbehalten",
+        "tr": "Bütün hakları saklıdır",
+        "en": "All rights reserved"
+    }
+}
