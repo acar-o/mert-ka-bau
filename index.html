@@ -26,16 +26,22 @@
     .mySlides {
       display: none;
     }
-
-    .resim {
-      border-left: 3px solid white;
-      border-right: 3px solid white;
-      width: 60vw;
-      height: 100vh;
-      background-size: cover;
-      margin: 0 20vw;
+    .basyazi{
+      color: white;
+      width: 100%;
+      text-align: center;
+      font-size: 2vw;
     }
+    .resim {
+      border: 3px solid white;      
+      width: 60vw;
+      height: 70vh;
+      background-size: cover;
 
+    }
+    .resimcerceve{
+      width: 60vw;
+    }
     .contain {
       position: relative;
       display: flex;
@@ -51,6 +57,12 @@
 
     #largeScreenSlider {
       display: block;
+      position: relative;
+      height: 100vh;
+      padding: 19vh 2vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
     }
 
     #mobileSlider {
@@ -169,7 +181,7 @@
   </nav>
 
   <section class="hero-wrap contain" id="largeScreenSlider">
-    <div>
+    <div class="resimcerceve">
       <div class="mySlides resim" style="background-image: url(images/ana_sayfa1.jpeg);"></div>
       <div class="mySlides resim" style="background-image: url(images/ana_sayfa2.jpeg);"></div>
       <div class="mySlides resim" style="background-image: url(images/ana_sayfa3.jpeg);"></div>
@@ -180,6 +192,14 @@
       <div class="mySlides resim" style="background-image: url(images/ana_sayfa8.jpeg);"></div>
       <div class="mySlides resim" style="background-image: url(images/ana_sayfa9.jpeg);"></div>
       <div class="mySlides resim" style="background-image: url(images/ana_sayfa10.jpeg);"></div>
+    </div>
+    <div class="basyazi">
+      <p style="line-height: 10vh;">MERT-KA BAU GMBH</p>
+      <img src="images/logoyazili_.png" alt="">
+      <br>
+      <p>DIENSTLEISTER FÜR BAU</p>
+      <p>INGENUERWESEN</p>
+      <p>ARCHITEKTUR</p>
     </div>
   </section>
 
