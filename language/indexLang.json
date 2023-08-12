@@ -29,6 +29,26 @@
         "tr": "Kalite ve Güvenilirlik",
         "en": "Quality and Reliability"
     },
+    "basyazi": {
+        "de": "MERT-KA BAU GMBH",
+        "tr": "MERT-KA İNŞAAT",
+        "en": "MERT-KA CONSTRUCTION"
+    },
+    "basyazi2": {
+        "de": "DIENSTLEISTER FÜR BAU",
+        "tr": "İNŞAAT İÇİN HİZMET SAĞLAYICI",
+        "en": "SERVICE PROVIDER FOR CONSTRUCTION"
+    },
+    "basyazi3": {
+        "de": "INGENUERWESEN",
+        "tr": "MÜHENDİSLİK",
+        "en": "ENGINEERING"
+    },
+    "basyazi4": {
+        "de": "ARCHITEKTUR",
+        "tr": "MİMARİ",
+        "en": "ARCHITECTURE"
+    },
     "sayfa2Text": {
         "de": "Unser Unternehmen strebt danach, die Bauanforderungen unserer Kunden in einer breiten Palette von Dienstleistungen zu erfüllen. Wir arbeiten mit professionellen Teams und Expertise, um qualitativ hochwertige Arbeiten zu liefern.",
         "tr": "Şirketimiz, geniş bir yelpazede hizmetler sunarak müşterilerin inşaat ihtiyaçlarını karşılamayı amaçlamaktadır. Profesyonel ekiplerimiz ve uzmanlığımızla kaliteli işler çıkarıyoruz.",
